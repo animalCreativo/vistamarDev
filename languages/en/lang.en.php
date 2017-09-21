@@ -44,6 +44,7 @@
   $lang['homeValle']  = 'VALLEYS';
 
   $lang['homeValleCachapoal1']  = 'CACHAPOAL ANDES VALLEY';
+  $lang['homeValleCachapoal11']  = 'CACHAPOAL ANDES VALLEY';
   $lang['homeValleCachapoal2']  = 'Has a hot climate with rainfall concentrated in the winter and high temperatures in the summer. The soils are highly fertile and appropriate for agriculture. The climatic conditions allow red varieties such as Carmenère, Merlot and Syrah to develop best.';
   
   $lang['homeValleCasaBlanca1']  = 'CASABLANCA VALLEY';
@@ -58,6 +59,7 @@ Ideal for the production of white wines and fresh red.';
   $lang['homeValleMaipo2']  = 'This valley is the one with the greatest tradition in wine-production in Chile. It has a temperate climate and the soils are alluvial in origin, very stony, with good drainage. Its climatic conditions favour the development of red wines, mainly Cabernet Sauvignon.';
 
   $lang['homeValleMaule1']  = 'MAULE VALLEY';
+  $lang['valleCentral']  = 'Central Valley';
   $lang['homeValleMaule2']  = 'In general, the climate in this region can be described as sub-humid Mediterranean, though the valley is renowned for having the greatest climatic diversity between its different areas. Old vineyards with País or Carignan grapes are to be found.';
 
   $lang['awards']  	= 'AWARDS';
@@ -187,7 +189,7 @@ Ideal for the production of white wines and fresh red.';
   $lang['guarda'] = 'Ageing';
   $lang['cosecha'] = 'Harvest';
 
-  $lang['download'] = 'Dowload File';
+  $lang['download'] = 'Download File';
   $lang['buy'] = 'Buy';
 
   $lang['special_lhTexto1'] = 'The Coastal Range has lost height at this point, leaving the way free for the cold influence of the Pacific Ocean. The soil type is clay loam, poor in organic matter and stoniness variable';
@@ -234,6 +236,23 @@ Granitic soils in the flat areas with more clay on the hillsides.';
   $lang['cc_cbTexto9'] = 'Tremendous fruit intensity with citrus and mineral notes along with exotic and tropical notes from the Viognier accompanied by a touch of vanilla.';
   $lang['cc_cbTexto10'] = 'Fresh and elegant with very pleasant, suggestive acidity and strong, appetising tannins.';
   $lang['cc_cbTexto11'] = '8 to 12°C. ';
+
+
+  $lang['cc_abTexto1'] = 'All these grapes come from our estate La Moralina, strategically located in Cachapoal Andes and a few minutes from our wine cellar.
+Well-drained soils of alluvial-colluvial origin: limey clayey-loam with an abundance of stones. Temperate Mediterranean climate with wide temperature swings between day and night.';
+  $lang['cc_abTexto2'] = 'Harvest Report: During the 2014 season were presented good weather conditions, with a long dry due to the lack of rain vintage, but with spring frost were noted in a slight decrease in yields. Fruit wines are shown, with good concentration of tannins and a fresh and spicy character.';
+  $lang['cc_abTexto3'] = 'Extended from mid-April, starting with Cabernet Sauvignon of the highest parts of the field, until mid-May with Carmenère ending.';
+  $lang['cc_abTexto4'] = '12 months of aging in French oak barrels (60%) and American (40%).';
+  $lang['cc_abTexto5'] = 'In stainless steel tanks. The must was inoculated with selected yeasts for controlled fermentation at 26º - 28ºC. The number and duration of pump-overs were determined daily by enological tastings.
+The resulting wine was held on its less until blending and bottling.
+The Viognier component (15%) was cold macerated prior to fermentation, then decanted and fermented entirely in stainless steel with no oak contact. ';
+  $lang['cc_abTexto6'] = 'Deep ruby red with violet nuances beginning to show some evolution';
+  $lang['cc_abTexto7'] = 'Fine, clean, attractive, juicy, with aromas of ripe and sweet fruits, blueberries, with an elegant touch of rosemary and cedar.';
+  $lang['cc_abTexto8'] = 'Juicy and fresh with lively acidity. Flavorful, well structured, and full of smooth tannins.';  
+
+  $lang['cc_abTexto9'] = '16º to 18º C.';  
+
+  $lang['cc_abTexto10'] = '8 years.';  
 
    $lang['sepia_csTexto1'] = 'Soils are alluvial-colluvial in origin, of loam to loamy-clayey silt, stony and with good drainage. The climate is temperate Mediterranean with a wide temperature variation between day and night.';
 

@@ -17,7 +17,7 @@
 
           <div class="sobrepuesto paddingTop10">
 					<div class="imgbotella">
-						<img src="img/17brsben.png" class="img-center img-responsive centrar-div-pos" alt="BRISA SAUVIGNON BLANC">
+						<img src="img/17brsben.png" class="img-center img-responsive centrar-div-pos" alt="BRISA SAUVIGNON BLANC" style="height: 900px; width: auto;">
 					</div>
 				</div> <!-- end col -->
           
@@ -27,45 +27,58 @@
 
           <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12 descrip-vino">
            	
-            	<div class="info-ow">
-            	<h3>VARIEDADES</h3>
-             	<div class="contain-1">
-				<div class="vari"><a href="brisa_cs.php"><h4>CABERNET SAUVIGNON</h4></a></div>
-             	<div class="dot3">·</div>
-             	<div class="vari"><a href="brisa_ca.php"><h4>CARMENÈRE</h4></a></div>
-             	<div class="dot3">·</div>
-             	<div class="vari"><a href="brisa_me.php"><h4>MERLOT</h4></a></div>
-             	<div class="dot3">·</div>
-             	<div class="vari"><a href="brisa_mo.php"><h4>MOSCATO</h4></a></div>
-             	</div>
-             	<div class="contain-1">
-				<div class="vari"><a href="brisa_ro.php"><h4>ROSÈ (CABERNET SAUVIGNON - SYRAH)</h4></a></div>
-            	<div class="dot3">·</div>
-            	<div class="vari"><a href="brisa_ch.php"><h4>CHARDONNAY</h4></a></div>
-            	<div class="dot3">·</div>
-            	<div class="vari"><a href="brisa_sb.php"><h4>SAUVIGNON BLANC</h4></a></div>
-             	</div>
-             	</div>
+            <div class="info-ow" style="text-transform: uppercase">
+              <h3><?php echo $lang['homeVariedades']; ?></h3>
+              <div class="contain-1">
+        <div class="vari"><a href="brisa_cs.php"><h4><?php echo $lang['coastalBlend']; ?></h4></a></div>
+              <div class="dot3">·</div>
+              <div class="vari"><a href="brisa_ca.php"><h4><?php echo $lang['carmene']; ?></h4></a></div>
+              <div class="dot3">·</div>
+              <div class="vari"><a href="brisa_me.php"><h4><?php echo $lang['merlot']; ?></h4></a></div>
+              <div class="dot3">·</div>
+              <div class="vari"><a href="brisa_mo.php"><h4><?php echo $lang['moscato']; ?></h4></a></div>
+              </div>
+              <div class="contain-1">
+        <div class="vari"><a href="brisa_ro.php"><h4><?php echo $lang['rose']; ?></h4></a></div>
+              <div class="dot3">·</div>
+              <div class="vari"><a href="brisa_ch.php"><h4><?php echo $lang['chardonnay']; ?></h4></a></div>
+              <div class="dot3">·</div>
+              <div class="vari"><a href="brisa_sb.php"><h4><?php echo $lang['sauvignonBlanc']; ?></h4></a></div>
+              </div>
+              </div>
              	
             <div class="info-ow mt-30">
-              <h1 style="text-transform: uppercase">Cabernet Sauvignon</h1>
+              <h1 style="text-transform: uppercase"><?php echo $lang['sauvignonBlanc']; ?></h1>
               <br>
-              <h3>Origen</h3>
-              <h5>Valle Central</h5>
-              Clima templado de tipo mediterráneo con gran amplitud térmica. Los suelos varían desde francoarenosos a arcillosos, de pedregosidad, humedad y altitud variables.</p>
-              <br>
-              <h6>Viniﬁcación</h6>
-              Este vino combina la gran expresión aromática y de sabores de la uva proveniente de los diferentes microclimas del Valle Central, obteniéndose un vino fresco, suave y muy frutal.
+              <h3><?php echo $lang['origen']; ?></h3>
+              <h5><?php echo $lang['valleCentral']; ?></h5>
+               <?php echo $lang['brisa_sbTexto1']; ?>
               <br><br>
-              <h6>Degustación</h6>
-              <h3>Color:</h3> Amarillo pálido brillante.
-              <h3>Aroma:</h3> Delicadas notas a piña y duraznos blancos, con notas a flores blancas.
-              <h3>Sabor:</h3> Intensamente frutal, de exquisita acidez y rica textura.
-              <h3>Temperatura de consumo:</h3> 8°C.
-              <h3>Maridaje:</h3> Pescados magros, ensaladas verdes o como aperitivo.
+              <h6><?php echo $lang['vinificacion']; ?></h6>
+              <?php echo $lang['brisa_sbTexto2']; ?>
               <br><br>
-              <a href="files/Brisa_SB_17.pdf" target="_blank" class="btn btn-lg btn-color">Bajar Archivo</a>
-              <a href="http://www.cavamorande.cl/store/vistamar-brisa/vistamar-brisa-sauvignon-blanc-2015" target="_blank" class="btn btn-lg btn-color">Comprar</a>
+              <h6><?php echo $lang['degustación']; ?></h6>
+              <h3><?php echo $lang['color']; ?>:</h3> <?php echo $lang['brisa_sbTexto3']; ?>
+              <h3><?php echo $lang['aroma']; ?>:</h3> <?php echo $lang['brisa_sbTexto4']; ?>
+              <h3><?php echo $lang['sabor']; ?>:</h3> <?php echo $lang['brisa_sbTexto5']; ?>
+              <h3><?php echo $lang['temp']; ?>:</h3> <?php echo $lang['brisa_sbTexto6']; ?>
+              <h3><?php echo $lang['maridaje']; ?>:</h3> <?php echo $lang['brisa_sbTexto7']; ?>
+              <br><br>
+              
+
+              <?php 
+              if ($_SESSION['lang']=='en') {  ?>
+              <a href="files/Brisa/ENG/Brisa_SB_17.pdf" target="_blank" class="btn btn-lg btn-color"><?php echo $lang['download']; ?></a>
+              <?php
+              }
+              else if ($_SESSION['lang']=='es') { ?>
+              <a href="files/Brisa/ESP/Brisa_SB_17.pdf" target="_blank" class="btn btn-lg btn-color"><?php echo $lang['download']; ?></a>
+              <a href="http://www.cavamorande.cl/store/vistamar-gran-reserva/vistamar-gran-reserva-cabernet-sauvignon-syrah" target="_blank" class="btn btn-lg btn-color">
+              <?php echo $lang['buy']; ?></a>
+              <?php
+              }
+              ?> 
+
             </div>
           </div> <!-- end col -->   
 

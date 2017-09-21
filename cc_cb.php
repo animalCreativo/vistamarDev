@@ -30,9 +30,9 @@
             	<div class="info-ow" style="text-transform: uppercase">
             	<h3><?php echo $lang['homeVariedades']; ?></h3>
              	<div class="contain-1">
-				<div class="vari"><a href="cc_cb.php"><h4><?php echo $lang['coastalBlend']; ?>COASTAL BLEND</h4></a></div>
+				<div class="vari"><a href="cc_cb.php"><h4><?php echo $lang['coastalBlend']; ?></h4></a></div>
              	<div class="dot3">·</div>
-             	<div class="vari"><a href="cc_ab.php"><h4><?php echo $lang['andesBlend']; ?>ANDES BLEND</h4></a></div>
+             	<div class="vari"><a href="cc_ab.php"><h4><?php echo $lang['andesBlend']; ?></h4></a></div>
              	</div>
              	</div>
              	
@@ -41,33 +41,32 @@
               <br>
               <h3><?php echo $lang['origen']; ?></h3>
               <h5><?php echo $lang['homeValleCasaBlanca11']; ?></h5>
-              <?php echo $lang[' cc_cbTexto1']; ?>
+              <?php echo $lang['cc_cbTexto1']; ?>
               <br><br>
-				      <?php echo $lang[' cc_cbTexto2']; ?>
+				      <?php echo $lang['cc_cbTexto2']; ?>
               <br>
               <h6><?php echo $lang['vinificacion']; ?></h6>
-              <h3><?php echo $lang['reporte']; ?>:</h3> <?php echo $lang[' cc_cbTexto3']; ?>
-              <h3><?php echo $lang['cosecha']; ?>:</h3> <?php echo $lang[' cc_cbTexto4']; ?>
-              <h3><?php echo $lang['guarda']; ?>:</h3> <?php echo $lang[' cc_cbTexto5']; ?>
-              <h3><?php echo $lang['vinificacion']; ?>:</h3> <?php echo $lang[' cc_cbTexto6']; ?>
-              <br>
-              <?php echo $lang[' cc_cbTexto61']; ?><br>
-              <?php echo $lang[' cc_cbTexto7']; ?>
+              <h3><?php echo $lang['reporte']; ?>:</h3> <?php echo $lang['cc_cbTexto3']; ?>
+              <h3><?php echo $lang['cosecha']; ?>:</h3> <?php echo $lang['cc_cbTexto4']; ?>
+              <h3><?php echo $lang['guarda']; ?>:</h3> <?php echo $lang['cc_cbTexto5']; ?>
+              <h3><?php echo $lang['vinificacion']; ?>:</h3> <?php echo $lang['cc_cbTexto6']; ?>
+              <br><br>
+              <?php echo $lang['cc_cbTexto61']; ?><br>
+              <?php echo $lang['cc_cbTexto7']; ?>
               <br><br>
               <h6><?php echo $lang['degustacion']; ?></h6>
-              <h3><?php echo $lang['color']; ?>:</h3><?php echo $lang[' cc_cbTexto8']; ?>
-              <h3><?php echo $lang['aroma']; ?>:</h3> <?php echo $lang[' cc_cbTexto9']; ?>
-              <h3><?php echo $lang['sabor']; ?>:</h3> <?php echo $lang[' cc_cbTexto10']; ?>
-              <h3><?php echo $lang['temp']; ?>:</h3><?php echo $lang[' cc_cbTexto11']; ?>
+              <h3><?php echo $lang['color']; ?>:</h3><?php echo $lang['cc_cbTexto8']; ?>
+              <h3><?php echo $lang['aroma']; ?>:</h3> <?php echo $lang['cc_cbTexto9']; ?>
+              <h3><?php echo $lang['sabor']; ?>:</h3> <?php echo $lang['cc_cbTexto10']; ?>
+              <h3><?php echo $lang['temp']; ?>:</h3><?php echo $lang['cc_cbTexto11']; ?>
               <br><br>
-              
-               <?php 
+              <?php 
               if ($_SESSION['lang']=='en') {  ?>
-              <a href="files//Corte de Campo/Eng/CorteCampo_Costa_15.pdf" target="_blank" class="btn btn-lg btn-color"><?php echo $lang['download']; ?></a>
+              <a href="files/Corte de Campo/Eng/CorteCampo_Costa_15.pdf" target="_blank" class="btn btn-lg btn-color"><?php echo $lang['download']; ?></a>
               <?php
               }
               else if ($_SESSION['lang']=='es') { ?>
-              <a href="files//Corte de Campo/Esp/CorteCampo_Costa_15pdf" target="_blank" class="btn btn-lg btn-color"><?php echo $lang['download']; ?></a>
+              <a href="files/Corte de Campo/Esp/CorteCampo_Costa_15.pdf" target="_blank" class="btn btn-lg btn-color"><?php echo $lang['download']; ?></a>
               <a href="http://www.cavamorande.cl/store/vistamar-gran-reserva/vistamar-gran-reserva-cabernet-sauvignon-syrah" target="_blank" class="btn btn-lg btn-color">
               <?php echo $lang['buy']; ?></a>
               <?php

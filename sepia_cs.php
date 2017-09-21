@@ -27,49 +27,60 @@
 
           <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12 descrip-vino">
            	
-            	<div class="info-ow">
-            	<h3>VARIEDADES</h3>
+            	<div class="info-ow" style="text-transform: uppercase">
+            	<h3><?php echo $lang['homeVariedades']; ?></h3>
              	<div class="contain-1">
-				<div class="vari"><a href="sepia_cs.php"><h4>CABERNET SAUVIGNON</h4></a></div>
+				<div class="vari"><a href="sepia_cs.php"><h4><?php echo $lang['cabernetBlend']; ?></h4></a></div>
              	<div class="dot3">·</div>
-             	<div class="vari"><a href="sepia_ca.php"><h4>CARMENÈRE</h4></a></div>
+             	<div class="vari"><a href="sepia_ca.php"><h4><?php echo $lang['carmene']; ?></h4></a></div>
              	<div class="dot3">·</div>
-             	<div class="vari"><a href="sepia_ma.php"><h4>MALBEC</h4></a></div>
+             	<div class="vari"><a href="sepia_ma.php"><h4><?php echo $lang['malbec']; ?></h4></a></div>
              	<div class="dot3">·</div>
-             	<div class="vari"><a href="sepia_me.php"><h4>MERLOT</h4></a></div>
+             	<div class="vari"><a href="sepia_me.php"><h4><?php echo $lang['merlot']; ?></h4></a></div>
              	</div>
              	<div class="contain-1">
-				<div class="vari"><a href="sepia_ch.php"><h4>CHARDONNAY</h4></a></div>
+				<div class="vari"><a href="sepia_ch.php"><h4><?php echo $lang['chardonnay']; ?></h4></a></div>
             	<div class="dot3">·</div>
-            	<div class="vari"><a href="sepia_pn.php"><h4>PINOT NOIR</h4></a></div>
+            	<div class="vari"><a href="sepia_pn.php"><h4><?php echo $lang['pinotNoir']; ?></h4></a></div>
             	<div class="dot3">·</div>
-            	<div class="vari"><a href="sepia_sb.php"><h4>SAUVIGNON BLANC</h4></a></div>
+            	<div class="vari"><a href="sepia_sb.php"><h4><?php echo $lang['sauvignonBlanc']; ?></h4></a></div>
              	</div>
              	</div>
              	
             <div class="info-ow mt-30">
-              <h1 style="text-transform: uppercase">Cabernet Sauvignon</h1>
+              <h1 style="text-transform: uppercase"><?php echo $lang['cabernetBlend']; ?></h1>
               <br>
-              <h3>Origen</h3>
-              <h5>Cachapoal Andes</h5>
-              Suelos de origen aluvial-coluvial, franco a franco arcillo-limosos, pedregosos y con buen drenaje. Clima templado mediterráneo, con gran amplitud térmica entre el día y la noche.
-              </p>
-              <br>
-              <h6>Viniﬁcación</h6>
-              Temperaturas del periodo de maduración más bajas que las del año pasado favorecieron una lenta maduración de las uvas, permitiendo obtener acideces balanceadas y mejor madurez fenólica de uvas tintas. Durante abril las temperaturas se presentaron más frescas, lo que favoreció vinos más frutales y de grados alcohólicos moderados.
+              <h3><?php echo $lang['origen']; ?></h3>
+              <h5><?php echo $lang['homeValleCachapoal1']; ?></h5>
+              <?php echo $lang['sepia_csTexto1']; ?>
               <br><br>
-              <h3>Cosecha:</h3> Primera quincena de abril.
-              <h3>Guarda:</h3> 10-12 meses en barricas de roble francés y americano.
+              <h6><?php echo $lang['vinificacion']; ?></h6>
+              <?php echo $lang['sepia_csTexto2']; ?>
               <br><br>
-              <h6>Degustación</h6>
-              <h3>Color:</h3> Color rojo profundo con reflejos violeta.
-              <h3>Aroma:</h3> Frutos rojos y negros frescos, vainilla, pimienta negra, notas de finas hierbas.
-              <h3>Sabor:</h3> Frutoso, con notas de toffee y vainilla, de taninos suaves, elegante y persistente.
-              <h3>Temperatura de consumo:</h3> 16-18ºC.
-              <h3>Maridaje:</h3> Carnes de caza, jabalí, ciervo y carnes rojas en general.
+              <h3><?php echo $lang['cosecha']; ?>:</h3>   <?php echo $lang['sepia_csTexto3']; ?>
+              <h3><?php echo $lang['guarda']; ?>:</h3>   <?php echo $lang['sepia_csTexto4']; ?>
               <br><br>
-              <a href="files/SepiaReserva_Cs_15.pdf" target="_blank" class="btn btn-lg btn-color">Bajar Archivo</a>
-              <a href="http://www.cavamorande.cl/store/sepia-reserva/sepia-reserva-cabernet-sauvignon-2015" target="_blank" class="btn btn-lg btn-color">Comprar</a>
+              <h6><?php echo $lang['degustacion']; ?></h6>
+              <h3><?php echo $lang['color']; ?>:</h3>   <?php echo $lang['sepia_csTexto5']; ?>
+              <h3><?php echo $lang['aroma']; ?>:</h3>   <?php echo $lang['sepia_csTexto6']; ?>
+              <h3><?php echo $lang['sabor']; ?>:</h3>  <?php echo $lang['sepia_csTexto7']; ?>
+              <h3><?php echo $lang['temp']; ?>:</h3>   <?php echo $lang['sepia_csTexto8']; ?>
+              <h3><?php echo $lang['maridaje']; ?>:</h3>   <?php echo $lang['sepia_csTexto9']; ?>
+              <br><br>   
+
+              <?php 
+              if ($_SESSION['lang']=='en') {  ?>
+              <a href="files//Sepia Reserva/ENG/SepiaReserva_Cs_16.pdf" target="_blank" class="btn btn-lg btn-color"><?php echo $lang['download']; ?></a>
+              <?php
+              }
+              else if ($_SESSION['lang']=='es') { ?>
+              <a href="files/Sepia Reserva/ESP/SepiaReserva_Cs_16.pdf" target="_blank" class="btn btn-lg btn-color"><?php echo $lang['download']; ?></a>
+              <a href="http://www.cavamorande.cl/store/vistamar-gran-reserva/vistamar-gran-reserva-cabernet-sauvignon-syrah" target="_blank" class="btn btn-lg btn-color">
+              <?php echo $lang['buy']; ?></a>
+              <?php
+              }
+              ?> 
+
             </div>
           </div> <!-- end col -->   
 

@@ -43,6 +43,7 @@
 
   $lang['homeValle']  = 'VALLES';
   $lang['homeValleCachapoal1']  = 'VALLE CACHAPOAL ANDES';
+  $lang['homeValleCachapoal11']  = 'VALLE DE CACHAPOAL ANDES';
   $lang['homeValleCachapoal2']  = 'Tiene un clima clima cálido, con lluvias que se concentran en el invierno y altas temperaturas en verano. Los suelos son muy fértiles y apropiados para la agricultura. Las condiciones climáticas permiten que variedades tintas como carmenère, merlot y syrah se desarrollen bien.';
   
   $lang['homeValleCasaBlanca11']  = 'VALLE DE CASABLANCA COSTA';
@@ -56,6 +57,7 @@
   $lang['homeValleMaipo2']  = 'Este es uno de los valles de mayor tradición en la producción de vinos de Chile. Tiene un clima templado y suelos de origen aluvial, muy pedregosos, con buen drenaje. Sus condiciones climáticas favorecen el desarrollo de vinos tintos, especialmente de cabernet sauvignon.';
 
   $lang['homeValleMaule1']  = 'VALLE DEL MAULE';
+  $lang['valleCentral']  = 'Valle Central';
   $lang['homeValleMaule2']  = 'En general, el clima de esta región puede ser descrito como mediterráneo sub-húmedo, a pesar de que el valle es reconocido por tener la mayor diversidad climática entre sus diferentes áreas. En él se pueden encontrar viejos viñedos de cepa país y uvas de carignan.';
 
   $lang['awards']  	= 'AWARDS';
@@ -235,6 +237,22 @@ Suelos granticos en las planicies y mas arcillosos en las laderas.';
   $lang['cc_cbTexto9'] = 'Gran intensidad frutal,con notas cítricas y minerales, apareciendo también los toques exóticos y tropicales del viogner, acompañados con suaves notas de vainilla.';
   $lang['cc_cbTexto10'] = 'Fresco y elegante. Acidez muy agradable y sugerente. Taninos potentes y golosos.';
   $lang['cc_cbTexto11'] = '8 a 12°C. ';
+
+
+  $lang['cc_abTexto1'] = 'Todas estas uvas provienen de nuestro campo, La Moralina, ubicado estratégicamente en Cachapoal Andes y a pocos minutos de nuestra bodega de vinificación.
+Suelos de origen aluvial-coluvial, franco arcillo limosos, pedregosos y con buen drenaje. Clima templado mediterráneo, con gran amplitud térmica entre el día y la noche. Recibimos aguas limpias, de primera mano, directo de los deshielos de la cordillera.';
+  $lang['cc_abTexto2'] = 'Durante la temporada 2014 se presentaron buenas condiciones climáticas, con una vendimia larga y seca gracias a la ausencia de lluvias, pero con heladas primaverales se hicieron notar en una leve disminución en los rendimientos. Los vinos se muestran frutales, con buena concentración de taninos y con un carácter fresco y especiado.';
+  $lang['cc_abTexto3'] = 'Se extendió desde mediados de abril , partiendo con el Cabernet Sauvignon de las partes mas altas del campo, hasta mediados de mayo finalizando con el Carmenère.';
+  $lang['cc_abTexto4'] = '12 meses de guarda en barricas de roble francés (60%) y americano (40%).';
+  $lang['cc_abTexto5'] = 'Se realiza en estanques de acero inoxidable. Inoculación con levaduras seleccionadas y fermentación controlada entre 26ºC a 28°C. La cantidad y duración de los remontajes son definidos por degustación diariamente por la enóloga. Posteriormente se guarda en barricas hasta completar su fermentación maloláctica. ';
+  $lang['cc_abTexto6'] = 'Rojo rubí profundo, con reflejos violáceos, empezando a mostrar algo de evolución.';
+  $lang['cc_abTexto7'] = 'Fino, limpio, atractivo, jugoso, con aromas a frutas maduras y dulces, arandanos ,con un elegante toque de romero y cedro.';
+  $lang['cc_abTexto8'] = 'Jugoso y fresco, con acidez viva, sabroso, bien estructurado, lleno de taninos suaves que redondean la boca.';  
+
+  $lang['cc_abTexto9'] = '16º a 18º C.';  
+
+  $lang['cc_abTexto10'] = '8 años.';  
+
 
   $lang['sepia_csTexto1'] = 'Suelos de origen aluvial-coluvial, franco a franco arcillo-limosos, pedregosos y con buen drenaje. Clima templado mediterráneo, con gran amplitud térmica entre el día y la noche.';
 

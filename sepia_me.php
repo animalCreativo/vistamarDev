@@ -27,49 +27,60 @@
 
           <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12 descrip-vino">
            	
-            	<div class="info-ow">
-            	<h3>VARIEDADES</h3>
-             	<div class="contain-1">
-				<div class="vari"><a href="sepia_cs.php"><h4>CABERNET SAUVIGNON</h4></a></div>
-             	<div class="dot3">·</div>
-             	<div class="vari"><a href="sepia_ca.php"><h4>CARMENÈRE</h4></a></div>
-             	<div class="dot3">·</div>
-             	<div class="vari"><a href="sepia_ma.php"><h4>MALBEC</h4></a></div>
-             	<div class="dot3">·</div>
-             	<div class="vari"><a href="sepia_me.php"><h4>MERLOT</h4></a></div>
-             	</div>
-             	<div class="contain-1">
-				<div class="vari"><a href="sepia_ch.php"><h4>CHARDONNAY</h4></a></div>
-            	<div class="dot3">·</div>
-            	<div class="vari"><a href="sepia_pn.php"><h4>PINOT NOIR</h4></a></div>
-            	<div class="dot3">·</div>
-            	<div class="vari"><a href="sepia_sb.php"><h4>SAUVIGNON BLANC</h4></a></div>
-             	</div>
-             	</div>
+            	<div class="info-ow" style="text-transform: uppercase">
+              <h3><?php echo $lang['homeVariedades']; ?></h3>
+              <div class="contain-1">
+        <div class="vari"><a href="sepia_cs.php"><h4><?php echo $lang['cabernetBlend']; ?></h4></a></div>
+              <div class="dot3">·</div>
+              <div class="vari"><a href="sepia_ca.php"><h4><?php echo $lang['carmene']; ?></h4></a></div>
+              <div class="dot3">·</div>
+              <div class="vari"><a href="sepia_ma.php"><h4><?php echo $lang['malbec']; ?></h4></a></div>
+              <div class="dot3">·</div>
+              <div class="vari"><a href="sepia_me.php"><h4><?php echo $lang['merlot']; ?></h4></a></div>
+              </div>
+              <div class="contain-1">
+        <div class="vari"><a href="sepia_ch.php"><h4><?php echo $lang['chardonnay']; ?></h4></a></div>
+              <div class="dot3">·</div>
+              <div class="vari"><a href="sepia_pn.php"><h4><?php echo $lang['pinotNoir']; ?></h4></a></div>
+              <div class="dot3">·</div>
+              <div class="vari"><a href="sepia_sb.php"><h4><?php echo $lang['sauvignonBlanc']; ?></h4></a></div>
+              </div>
+              </div>
              	
             <div class="info-ow mt-30">
-              <h1 style="text-transform: uppercase">Merlot</h1>
+              <h1 style="text-transform: uppercase"><?php echo $lang['merlot']; ?></h1>
               <br>
-              <h3>Origen</h3>
-              <h5>Valle del Maipo</h5>
-              Suelos profundos, franco-arcillosos de origen aluvial. Clima mediterráneo semiárido, con gran amplitud térmica que favorece una perfecta maduración de las uvas.
-              </p>
-              <br>
-              <h6>Viniﬁcación</h6>
-              La vendimia se caracterizó por presentar condiciones climáticas muy favorables, con temperaturas medias más bajas que un año normal y lluvias muy tardías, lo que permitió esperar la madurez óptima de las uvas logrando buenas acideces y alcoholes moderados. Se obtuvieron tintos muy frutales, frescos y representativos de cada variedad.
+              <h3><?php echo $lang['origen']; ?></h3>
+              <h5><?php echo $lang['homeValleMaipo1']; ?></h5>
+              <?php echo $lang['sepia_maTexto1']; ?>
+              <br>  <br>
+              <h6><?php echo $lang['vinificacion']; ?></h6>
+              <?php echo $lang['sepia_maTexto2']; ?>
               <br><br>
-              <h3>Cosecha:</h3> Segunda semana de marzo.
-              <h3>Guarda:</h3> 10-12 meses en barricas de roble francés y americano.
+              <h3><?php echo $lang['cosecha']; ?>:</h3> <?php echo $lang['sepia_maTexto3']; ?>
+              <h3><?php echo $lang['guarda']; ?>:</h3><?php echo $lang['sepia_maTexto4']; ?>
               <br><br>
-              <h6>Degustación</h6>
-              <h3>Color:</h3> Rojo cereza profundo, con reflejos violáceos.
-              <h3>Aroma:</h3> Frutos rojos, moras y ciruelas frescas, con agradables notas de vainilla.
-              <h3>Sabor:</h3> Frutos rojos y negros maduros, taninos sedosos, final largo y agradable.
-              <h3>Temperatura de consumo:</h3> 16-18ºC.
-              <h3>Maridaje:</h3> Quesos brie, camembert, terrinas, pastas con crema en base a tomates.
+              <h6><?php echo $lang['degustacion']; ?></h6>
+              <h3><?php echo $lang['color']; ?>:</h3>    <?php echo $lang['sepia_maTexto5']; ?>
+              <h3><?php echo $lang['aroma']; ?>:</h3>   <?php echo $lang['sepia_maTexto6']; ?>
+              <h3><?php echo $lang['sabor']; ?>:</h3>   <?php echo $lang['sepia_maTexto7']; ?>
+              <h3><?php echo $lang['temp']; ?>:</h3>    <?php echo $lang['sepia_maTexto8']; ?>
+              <h3><?php echo $lang['maridaje']; ?>:</h3> <?php echo $lang['sepia_maTexto9']; ?>
               <br><br>
-              <a href="files/SepiaReserva_Me_15.pdf" target="_blank" class="btn btn-lg btn-color">Bajar Archivo</a>
-              <a href="http://www.cavamorande.cl/store/sepia-reserva/sepia-reserva-merlot-2014" target="_blank" class="btn btn-lg btn-color">Comprar</a>
+             
+              <?php 
+              if ($_SESSION['lang']=='en') {  ?>
+              <a href="files/Sepia Reserva/ENG/SepiaReserva_Me_16.pdf" target="_blank" class="btn btn-lg btn-color"><?php echo $lang['download']; ?></a>
+              <?php
+              }
+              else if ($_SESSION['lang']=='es') { ?>
+              <a href="files/Sepia Reserva/ESP/SepiaReserva_Me_16.pdf" target="_blank" class="btn btn-lg btn-color"><?php echo $lang['download']; ?></a>
+              <a href="http://www.cavamorande.cl/store/vistamar-gran-reserva/vistamar-gran-reserva-cabernet-sauvignon-syrah" target="_blank" class="btn btn-lg btn-color">
+              <?php echo $lang['buy']; ?></a>
+              <?php
+              }
+              ?> 
+
             </div>
           </div> <!-- end col -->   
 

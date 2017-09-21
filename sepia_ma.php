@@ -27,49 +27,61 @@
 
           <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12 descrip-vino">
            	
-            	<div class="info-ow">
-            	<h3>VARIEDADES</h3>
-             	<div class="contain-1">
-				<div class="vari"><a href="sepia_cs.php"><h4>CABERNET SAUVIGNON</h4></a></div>
-             	<div class="dot3">·</div>
-             	<div class="vari"><a href="sepia_ca.php"><h4>CARMENÈRE</h4></a></div>
-             	<div class="dot3">·</div>
-             	<div class="vari"><a href="sepia_ma.php"><h4>MALBEC</h4></a></div>
-             	<div class="dot3">·</div>
-             	<div class="vari"><a href="sepia_me.php"><h4>MERLOT</h4></a></div>
-             	</div>
-             	<div class="contain-1">
-				<div class="vari"><a href="sepia_ch.php"><h4>CHARDONNAY</h4></a></div>
-            	<div class="dot3">·</div>
-            	<div class="vari"><a href="sepia_pn.php"><h4>PINOT NOIR</h4></a></div>
-            	<div class="dot3">·</div>
-            	<div class="vari"><a href="sepia_sb.php"><h4>SAUVIGNON BLANC</h4></a></div>
-             	</div>
-             	</div>
+            	<div class="info-ow" style="text-transform: uppercase">
+              <h3><?php echo $lang['homeVariedades']; ?></h3>
+              <div class="contain-1">
+        <div class="vari"><a href="sepia_cs.php"><h4><?php echo $lang['cabernetBlend']; ?></h4></a></div>
+              <div class="dot3">·</div>
+              <div class="vari"><a href="sepia_ca.php"><h4><?php echo $lang['carmene']; ?></h4></a></div>
+              <div class="dot3">·</div>
+              <div class="vari"><a href="sepia_ma.php"><h4><?php echo $lang['malbec']; ?></h4></a></div>
+              <div class="dot3">·</div>
+              <div class="vari"><a href="sepia_me.php"><h4><?php echo $lang['merlot']; ?></h4></a></div>
+              </div>
+              <div class="contain-1">
+        <div class="vari"><a href="sepia_ch.php"><h4><?php echo $lang['chardonnay']; ?></h4></a></div>
+              <div class="dot3">·</div>
+              <div class="vari"><a href="sepia_pn.php"><h4><?php echo $lang['pinotNoir']; ?></h4></a></div>
+              <div class="dot3">·</div>
+              <div class="vari"><a href="sepia_sb.php"><h4><?php echo $lang['sauvignonBlanc']; ?></h4></a></div>
+              </div>
+              </div>
              	
             <div class="info-ow mt-30">
-              <h1 style="text-transform: uppercase">Malbec</h1>
+              <h1 style="text-transform: uppercase"><?php echo $lang['malbec']; ?></h1>
               <br>
-              <h3>Origen</h3>
-              <h5>Valle del Maule</h5>
-              Es un antiguo viñedo de 64 años de edad, siendo parras equilibradas y de bajo rendimiento. Los suelos son de la Cordillera de la Costa, franco-arcillosos. En cuanto a clima, los veranos son muy calurosos, pero con temperaturas frescas durante la noche.
-              </p>
-              <br>
-              <h6>Viniﬁcación</h6>
-              La vendimia presentó temperaturas más cálidas que la anterior, lo que significó una temporada larga y seca gracias a la ausencia de lluvias, permitiendo lograr una maduración completa de las uvas, lo cual fue muy beneficioso para las uvas del Maule. Los vinos destacan por su intensidad y generosidad en sus aromas y sabores, con acideces mucho más agradables.
+              <h3><?php echo $lang['origen']; ?></h3>
+              <h5><?php echo $lang['homeValleMaule1']; ?></h5>
+              <?php echo $lang['sepia_maTexto1']; ?>
               <br><br>
-              <h3>Cosecha:</h3> Tercera semana de abril.
-              <h3>Guarda:</h3> 10-12 meses en barricas de roble francés y americano.
+              <h6><?php echo $lang['vinificacion']; ?></h6>
+              <?php echo $lang['sepia_maTexto2']; ?>
               <br><br>
-              <h6>Degustación</h6>
-              <h3>Color:</h3> Cereza profundo e intenso, con brillantes reflejos violáceos.
-              <h3>Aroma:</h3> Muy intenso y expresivo, con notas del tipo floral, perfumado, arándanos maduros, con un elegante tostado proveniente de su guarda en barricas.
-              <h3>Sabor:</h3> Boca frutosa, jugosa, de cuerpo redondo y envolvente, taninos suaves, y final largo y agradable.
-              <h3>Temperatura de consumo:</h3> 16-18ºC.
-              <h3>Maridaje:</h3> Carnes rojas, quesos maduros y pastas condimentadas.
+              <h3><?php echo $lang['cosecha']; ?>:</h3> <?php echo $lang['sepia_maTexto3']; ?>
+              <h3><?php echo $lang['guarda']; ?>:</h3> <?php echo $lang['sepia_maTexto4']; ?>
               <br><br>
-              <a href="files/SepiaReserva_Mal_15_.pdf" target="_blank" class="btn btn-lg btn-color">Bajar Archivo</a>
-              <a href="http://www.cavamorande.cl/store/sepia-reserva/sepia-reserva-malbec-2015" target="_blank" class="btn btn-lg btn-color">Comprar</a>
+              <h6><?php echo $lang['degustacion']; ?></h6>
+              <h3><?php echo $lang['color']; ?>:</h3> <?php echo $lang['sepia_maTexto5']; ?>
+              <h3><?php echo $lang['aroma']; ?>:</h3> <?php echo $lang['sepia_maTexto6']; ?>
+              <h3><?php echo $lang['sabor']; ?>:</h3> <?php echo $lang['sepia_maTexto7']; ?>
+              <h3><?php echo $lang['temp']; ?>:</h3> <?php echo $lang['sepia_maTexto8']; ?>
+              <h3><?php echo $lang['maridaje']; ?>:</h3> <?php echo $lang['sepia_maTexto9']; ?>
+              <br><br>
+             
+              <?php 
+              if ($_SESSION['lang']=='en') {  ?>
+              <a href="files//Sepia Reserva/ENG/SepiaReserva_Mal_16.pdf" target="_blank" class="btn btn-lg btn-color"><?php echo $lang['download']; ?></a>
+              <?php
+              }
+              else if ($_SESSION['lang']=='es') { ?>
+              <a href="files/Sepia Reserva/ESP/SepiaReserva_Mal_16.pdf" target="_blank" class="btn btn-lg btn-color"><?php echo $lang['download']; ?></a>
+              <a href="http://www.cavamorande.cl/store/vistamar-gran-reserva/vistamar-gran-reserva-cabernet-sauvignon-syrah" target="_blank" class="btn btn-lg btn-color">
+              <?php echo $lang['buy']; ?></a>
+              <?php
+              }
+              ?> 
+
+
             </div>
           </div> <!-- end col -->   
 

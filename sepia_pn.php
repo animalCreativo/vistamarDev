@@ -27,49 +27,63 @@
 
           <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12 descrip-vino">
            	
-            	<div class="info-ow">
-            	<h3>VARIEDADES</h3>
-             	<div class="contain-1">
-				<div class="vari"><a href="sepia_cs.php"><h4>CABERNET SAUVIGNON</h4></a></div>
-             	<div class="dot3">·</div>
-             	<div class="vari"><a href="sepia_ca.php"><h4>CARMENÈRE</h4></a></div>
-             	<div class="dot3">·</div>
-             	<div class="vari"><a href="sepia_ma.php"><h4>MALBEC</h4></a></div>
-             	<div class="dot3">·</div>
-             	<div class="vari"><a href="sepia_me.php"><h4>MERLOT</h4></a></div>
-             	</div>
-             	<div class="contain-1">
-				<div class="vari"><a href="sepia_ch.php"><h4>CHARDONNAY</h4></a></div>
-            	<div class="dot3">·</div>
-            	<div class="vari"><a href="sepia_pn.php"><h4>PINOT NOIR</h4></a></div>
-            	<div class="dot3">·</div>
-            	<div class="vari"><a href="sepia_sb.php"><h4>SAUVIGNON BLANC</h4></a></div>
-             	</div>
-             	</div>
+            	
+              <div class="info-ow" style="text-transform: uppercase">
+              <h3><?php echo $lang['homeVariedades']; ?></h3>
+              <div class="contain-1">
+        <div class="vari"><a href="sepia_cs.php"><h4><?php echo $lang['cabernetBlend']; ?></h4></a></div>
+              <div class="dot3">·</div>
+              <div class="vari"><a href="sepia_ca.php"><h4><?php echo $lang['carmene']; ?></h4></a></div>
+              <div class="dot3">·</div>
+              <div class="vari"><a href="sepia_ma.php"><h4><?php echo $lang['malbec']; ?></h4></a></div>
+              <div class="dot3">·</div>
+              <div class="vari"><a href="sepia_me.php"><h4><?php echo $lang['merlot']; ?></h4></a></div>
+              </div>
+              <div class="contain-1">
+        <div class="vari"><a href="sepia_ch.php"><h4><?php echo $lang['chardonnay']; ?></h4></a></div>
+              <div class="dot3">·</div>
+              <div class="vari"><a href="sepia_pn.php"><h4><?php echo $lang['pinotNoir']; ?></h4></a></div>
+              <div class="dot3">·</div>
+              <div class="vari"><a href="sepia_sb.php"><h4><?php echo $lang['sauvignonBlanc']; ?></h4></a></div>
+              </div>
+              </div>
              	
             <div class="info-ow mt-30">
-              <h1 style="text-transform: uppercase">Pinot Noir</h1>
+              <h1 style="text-transform: uppercase"><?php echo $lang['pinotNoir']; ?></h1>
               <br>
-              <h3>Origen</h3>
-              <h5>Valle de Casablanca</h5>
-              Suelos graníticos en las planicies y arcillosos en las laderas. Su clima presenta gran influencia del Océano Pacífico, lo que asegura una maduración lenta de sus uvas.
-              </p>
-              <br>
-              <h6>Viniﬁcación</h6>
-              La temporada 2014 en Casablanca, presentó temperaturas más frías que un año normal, lo que favoreció la intensidad aromática y de sabores de las uvas. Estas condiciones provocaron una madurez pausada y tranquila de las uvas, obteniéndose vinos muy expresivos y de gran intensidad frutal.
+              <h3><?php echo $lang['origen']; ?></h3>
+              <h5><?php echo $lang['homeValleCasaBlanca1']; ?></h5>
+              <?php echo $lang['sepia_pnTexto1']; ?>
+             <br><br>
+              <h6><?php echo $lang['vinificacion']; ?></h6>
+              <?php echo $lang['sepia_pnTexto2']; ?>
               <br><br>
-              <h3>Cosecha:</h3> Primera semana de abril.
-              <h3>Guarda:</h3> 8 meses en barricas de roble francés.
+              <h3><?php echo $lang['cosecha']; ?>:</h3>  <?php echo $lang['sepia_pnTexto3']; ?>
+              <h3><?php echo $lang['guarda']; ?>:</h3>  <?php echo $lang['sepia_pnTexto4']; ?>
               <br><br>
-              <h6>Degustación</h6>
-              <h3>Color:</h3> Rojo brillante con reflejos rubí.
-              <h3>Aroma:</h3> Frutos rojos y negros frescos, floral, con un ligero toque especiado.
-              <h3>Sabor:</h3> Fresco y elegante, acidez jugosa, textura sedosa y aterciopelada.
-              <h3>Temperatura de consumo:</h3> 12ºC.
-              <h3>Maridaje:</h3> Atún sellado, salmón, carpaccio de avestruz o res y magret de pato.
+              <h6><?php echo $lang['degustacion']; ?></h6>
+              <h3><?php echo $lang['color']; ?>:</h3>  <?php echo $lang['sepia_pnTexto5']; ?>
+              <h3><?php echo $lang['aroma']; ?>:</h3>  <?php echo $lang['sepia_pnTexto6']; ?>
+              <h3><?php echo $lang['sabor']; ?>:</h3>  <?php echo $lang['sepia_pnTexto7']; ?>
+              <h3><?php echo $lang['temp']; ?>:</h3>  <?php echo $lang['sepia_pnTexto8']; ?>
+              <h3><?php echo $lang['maridaje']; ?>:</h3> <?php echo $lang['sepia_pnTexto9']; ?>
               <br><br>
-              <a href="files/SepiaReserva_Pn_15.pdf" target="_blank" class="btn btn-lg btn-color">Bajar Archivo</a>
-              <a href="http://www.cavamorande.cl/store/sepia-reserva/sepia-reserva-pinot-noir-2015" target="_blank" class="btn btn-lg btn-color">Comprar</a>
+              
+               <?php 
+              if ($_SESSION['lang']=='en') {  ?>
+              <a href="files/Sepia Reserva/ENG/SepiaReserva_Pn_16.pdf" target="_blank" class="btn btn-lg btn-color"><?php echo $lang['download']; ?></a>
+              <?php
+              }
+              else if ($_SESSION['lang']=='es') { ?>
+              <a href="files/Sepia Reserva/ESP/SepiaReserva_Pn_16.pdf" target="_blank" class="btn btn-lg btn-color"><?php echo $lang['download']; ?></a>
+              <a href="http://www.cavamorande.cl/store/vistamar-gran-reserva/vistamar-gran-reserva-cabernet-sauvignon-syrah" target="_blank" class="btn btn-lg btn-color">
+              <?php echo $lang['buy']; ?></a>
+              <?php
+              }
+              ?> 
+
+
+
             </div>
           </div> <!-- end col -->   
 

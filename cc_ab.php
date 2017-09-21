@@ -27,39 +27,50 @@
 
           <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12 descrip-vino">
            	
-            	<div class="info-ow">
-            	<h3>VARIEDADES</h3>
-             	<div class="contain-1">
-				<div class="vari"><a href="cc_cb.php"><h4>COASTAL BLEND</h4></a></div>
-             	<div class="dot3">·</div>
-             	<div class="vari"><a href="cc_ab.php"><h4>ANDES BLEND</h4></a></div>
-             	</div>
-             	</div>
+              <div class="info-ow" style="text-transform: uppercase">
+              <h3><?php echo $lang['homeVariedades']; ?></h3>
+              <div class="contain-1">
+        <div class="vari"><a href="cc_cb.php"><h4><?php echo $lang['coastalBlend']; ?></h4></a></div>
+              <div class="dot3">·</div>
+              <div class="vari"><a href="cc_ab.php"><h4><?php echo $lang['andesBlend']; ?></h4></a></div>
+              </div>
+              </div>
              	
             <div class="info-ow mt-30">
-              <h1 style="text-transform: uppercase">Andes Blend</h1>
+              <h1 style="text-transform: uppercase"><?php echo $lang['andesBlend']; ?></h1>
               <br>
-              <h3>Origen</h3>
-              <h5>Valle de Cachapoal Andes</h5>
-              Todas estas uvas provienen de nuestro campo, La Moralina, ubicado estratégicamente en Cachapoal Andes y a pocos minutos de nuestra bodega de vinificación.<br>
-			  Suelos de origen aluvial-coluvial, franco arcillo limosos, pedregosos y con buen drenaje. Clima templado mediterráneo, con gran amplitud térmica entre el día y la noche. Recibimos aguas limpias, de primera mano, directo de los deshielos de la cordillera.
-              </p>
+              <h3><?php echo $lang['origen']; ?></h3>
+              <h5><?php echo $lang['homeValleCachapoal11']; ?></h5>
+              <?php echo $lang['cc_abTexto1']; ?><br>
+			       
               <br>
-              <h6>Viniﬁcación</h6>
-              <h3>Reporte de vendimia:</h3> Durante la temporada 2014 se presentaron buenas condiciones climáticas, con una vendimia larga y seca gracias a la ausencia de lluvias, pero con heladas primaverales se hicieron notar en una leve disminución en los rendimientos. Los vinos se muestran frutales, con buena concentración de taninos y con un carácter fresco y especiado.
-              <h3>Cosecha manual:</h3> Se extendió desde mediados de abril , partiendo con el Cabernet Sauvignon de las partes mas altas del campo, hasta mediados de mayo finalizando con el Carmenère.
-              <h3>Guarda:</h3> 12 meses de guarda en barricas de roble francés (60%) y americano (40%).
-              <h3>Vinificación:</h3> Se realiza en estanques de acero inoxidable. Inoculación con levaduras seleccionadas y fermentación controlada entre 26ºC a 28°C. La cantidad y duración de los remontajes son definidos por degustación diariamente por la enóloga. Posteriormente se guarda en barricas hasta completar su fermentación maloláctica.
+              <h6><?php echo $lang['vinificacion']; ?></h6>
+              <h3><?php echo $lang['reporte']; ?>:</h3>  <?php echo $lang['cc_abTexto2']; ?>
+              <h3><?php echo $lang['cosecha']; ?>:</h3>  <?php echo $lang['cc_abTexto3']; ?>
+              <h3><?php echo $lang['guarda']; ?>:</h3>  <?php echo $lang['cc_abTexto4']; ?>
+              <h3><?php echo $lang['vinificacion']; ?>:</h3>  <?php echo $lang['cc_abTexto5']; ?>
               <br><br>
-              <h6>Degustación</h6>
-              <h3>Color:</h3> Rojo rubí profundo, con reflejos violáceos, empezando a mostrar algo de evolución.
-              <h3>Aroma:</h3> Fino, limpio, atractivo, jugoso, con aromas a frutas maduras y dulces, arandanos ,con un elegante toque de romero y cedro.
-              <h3>Sabor:</h3> Jugoso y fresco, con acidez viva, sabroso, bien estructurado, lleno de taninos suaves que redondean la boca.
-              <h3>Temperatura de consumo:</h3> 16º a 18º C.
-              <h3>Potencial de guarda:</h3> 8 años.
+              <h6><?php echo $lang['degustación']; ?></h6>
+              <h3><?php echo $lang['color']; ?>:</h3>  <?php echo $lang['cc_abTexto6']; ?>
+              <h3><?php echo $lang['aroma']; ?>:</h3>  <?php echo $lang['cc_abTexto7']; ?>
+              <h3><?php echo $lang['sabor']; ?>:</h3>  <?php echo $lang['cc_abTexto8']; ?>
+              <h3>Temperatura de consumo:</h3>  <?php echo $lang['cc_abTexto9']; ?>
+              <h3><?php echo $lang['potencial']; ?>:</h3>  <?php echo $lang['cc_abTexto10']; ?>.
               <br><br>
-              <a href="files/CorteCampo_Andes_14.pdf" target="_blank" class="btn btn-lg btn-color">Bajar Archivo</a>
-              <!--a href="http://www.cavamorande.cl/store/vina-vistamar/vistamar-brisa-cabernet-sauvignon-2014" target="_blank" class="btn btn-lg btn-color">Buy</a-->
+              
+              <?php 
+              if ($_SESSION['lang']=='en') {  ?>
+              <a href="files/Corte de Campo/Eng/CorteCampo_Andes_14.pdf" target="_blank" class="btn btn-lg btn-color"><?php echo $lang['download']; ?></a>
+              <?php
+              }
+              else if ($_SESSION['lang']=='es') { ?>
+              <a href="files/Corte de Campo/Esp/CorteCampo_Andes_14.pdf" target="_blank" class="btn btn-lg btn-color"><?php echo $lang['download']; ?></a>
+              <a href="http://www.cavamorande.cl/store/vistamar-gran-reserva/vistamar-gran-reserva-cabernet-sauvignon-syrah" target="_blank" class="btn btn-lg btn-color">
+              <?php echo $lang['buy']; ?></a>
+              <?php
+              }
+              ?> 
+
             </div>
           </div> <!-- end col -->   
 
