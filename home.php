@@ -70,14 +70,14 @@
 
             </li> <!-- end slide 2 -->
 
-            <!-- SLIDE 3 -->
+          <!-- SLIDE 3 -->
             <li data-transition="zoomout"
               data-easein="default" 
               data-easeout="default"
               data-slotamount="1"
               data-masterspeed="1200"
               data-delay="8000"
-              data-title="Amazing Agency"
+              data-title="Creative &amp; Emotional"
               >
               <!-- MAIN IMAGE -->
               <img src="img/banner3.jpg"
@@ -88,44 +88,18 @@
                 class="rev-slidebg"
                 >
 
-              <!-- LAYER NR. 2 -->
-              <div class="mainslider-fonts tp-caption hero-text large_white"
+              <!-- LAYER NR. 1 -->
+              <div class="mainslider-fonts tp-caption hero-text huge_white rs-parallaxlevel-8"
                 data-x="center"
                 data-y="center"
-                data-transform_idle="o:1;s:900"
+                data-transform_idle="o:1;s:1000"
                 data-transform_in="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;s:500;"
                 data-transform_out="opacity:0;s:1000;e:Power3.easeInOut;"
-                data-start="1200"><?php echo $lang['homeEscencia1']; ?> <br><?php echo $lang['homeEscencia2']; ?>
+                data-start="1000"
+                data-splitout="none"><?php echo $lang['homeEsencia1']; ?> <br><?php echo $lang['homeEsencia2']; ?>
               </div>
 
-
-              <!-- LAYER NR. 4 -->
-              <div class="tp-caption tp-resizeme"
-                data-x="center"
-                data-y="center"
-                data-voffset="140"
-                data-hoffset="-85"
-                data-transform_idle="o:1;s:700"
-                data-transform_in="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;s:500;"
-                data-transform_out="opacity:0;s:1000;e:Power3.easeInOut;"
-                data-start="1600"
-                style="z-index: 12; max-width: auto; max-height: auto; white-space: nowrap;">
-              </div>
-
-              <!-- LAYER NR. 5 -->
-              <div class="tp-caption tp-resizeme"
-                data-x="center"
-                data-y="center"
-                data-voffset="140"
-                data-hoffset="89"
-                data-transform_idle="o:1;s:700"
-                data-transform_in="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;s:500;"
-                data-transform_out="opacity:0;s:1000;e:Power3.easeInOut;"
-                data-start="1600"
-                style="z-index: 13; max-width: auto; max-height: auto; white-space: nowrap;">
-              </div>
-            
-            </li> <!-- end slide 3 -->
+            </li> <!-- end slide 2 -->
 
           </ul>
 
