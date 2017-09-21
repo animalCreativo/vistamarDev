@@ -27,36 +27,49 @@
 
           <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12 descrip-vino">
            	
-            	<div class="info-ow">
-            	<h3>VARIEDADES</h3>
+            	<div class="info-ow" style="text-transform: uppercase">
+            	<h3><?php echo $lang['homeVariedades']; ?></h3>
              	<div class="contain-1">
-             	<div class="vari"><a href="gr_rb.php"><h4>RED BLEND</h4></a></div>
+             	<div class="vari"><a href="gr_rb.php"><h4><?php echo $lang['redBlend']; ?></h4></a></div>
              	</div>
              	</div>
              	
             <div class="info-ow mt-30">
-              <h1 style="text-transform: uppercase">Red Blend</h1>
+              <h1 style="text-transform: uppercase"><?php echo $lang['redBlend']; ?></h1>
               <br>
-              <h3>Origen</h3>
-              <h5>Valle del Maipo</h5>
-              Suelos profundos, franco arcillosos de origen aluvial. Clima mediterráneo semiárido, con gran amplitud térmica que favorece una perfecta maduración de las uvas.</p>
-              <br>
-              <h6>Viniﬁcación</h6>
-              <h3>Semana y tipo de cosecha:</h3> Cosecha manual: Cabernet Sauvignon, la última semana de marzo. Syrah, la tercera semana de abril.
-              <h3>Guarda:</h3> 16 meses de guarda en barricas de roble francés (62%) y americano (38%).
-              <h3>Vinificación:</h3> Se realiza en estanques de acero inoxidable. Inoculación con levaduras seleccionadas y fermentación controlada entre 26º a 28°C. La cantidad y duración de los remontajes son definidos por degustación diariamente por la enóloga. Posterior guarda en barricas hasta completar fermentación maloláctica.
-              <h3>Reporte de vendimia:</h3> La vendimia se caracterizó por presentar temperaturas más cálidas que un año normal, lo que adelantó las cosechas entre 2 a 3 semanas, logrando fruta de gran calidad, y vinos de buen cuerpo con aromas muy intensos a fruta roja y negra madura.
+              <h3><?php echo $lang['origen']; ?></h3>
+              <h5><?php echo $lang['homeValleMaipo1']; ?></h5>
+              <?php echo $lang['gr_rbTexto1']; ?>
+              <br> <br>
+              <h6><?php echo $lang['vinificacion']; ?></h6>
+              <h3><?php echo $lang['semana']; ?>:</h3> <?php echo $lang['gr_rbTexto2']; ?>
+              <h3><?php echo $lang['guarda']; ?>:</h3> <?php echo $lang['gr_rbTexto3']; ?>
+              <h3><?php echo $lang['vinificacion']; ?>:</h3> <?php echo $lang['gr_rbTexto4']; ?>
+              <h3>Reporte de vendimia:</h3> <?php echo $lang['gr_rbTexto5']; ?>
               <br><br>
-              <h6>Degustación</h6>
-              <h3>Color:</h3> Rojo violeta profundo e intenso, con inicios de mostrar alguna evolución.
-              <h3>Aroma:</h3> Cereza negra, notas dulces y licorosas, chocolate amargo, grafito, y un ligero toque de cedrón.
-              <h3>Sabor:</h3> Complejo y elegante, con una acidez que lo hace largo y distinguido. Equilibrado, redondo y maduro. De cuerpo medio, taninos suaves y sedosos, final de larga persistencia.
-              <h3>Temperatura de consumo:</h3> 16º a 18º C.
-              <h3>Maridaje:</h3> Quesos maduros, carnes rojas, charcutería y cordero.
-              <h3>Potencial de guarda:</h3> 8 años.
+              <h6><?php echo $lang['degustacion']; ?></h6>
+              <h3><?php echo $lang['color']; ?>:</h3> <?php echo $lang['gr_rbTexto6']; ?>
+              <h3><?php echo $lang['aroma']; ?>:</h3> <?php echo $lang['gr_rbTexto7']; ?>
+              <h3><?php echo $lang['sabor']; ?>:</h3> <?php echo $lang['gr_rbTexto8']; ?>
+              <h3><?php echo $lang['temp']; ?>:</h3> <?php echo $lang['gr_rbTexto9']; ?>
+              <h3><?php echo $lang['maridaje']; ?>:</h3> <?php echo $lang['gr_rbTexto10']; ?>
+              <h3><?php echo $lang['potencial']; ?>:</h3> <?php echo $lang['gr_rbTexto11']; ?>
               <br><br>
-              <a href="files/GranRes_CsSy_14.pdf" target="_blank" class="btn btn-lg btn-color">Bajar Archivo</a>
-              <a href="http://www.cavamorande.cl/store/vistamar-gran-reserva/vistamar-gran-reserva-cabernet-sauvignon-syrah" target="_blank" class="btn btn-lg btn-color">Comprar</a>
+              
+              <?php 
+              if ($_SESSION['lang']=='en') {  ?>
+              <a href="files/Gran Reserva/Eng/GranRes_CsSy_14.pdf" target="_blank" class="btn btn-lg btn-color"><?php echo $lang['download']; ?></a>
+              <?php
+              }
+              else if ($_SESSION['lang']=='es') { ?>
+              <a href="files/Gran Reserva/Esp/GranRes_CsSy_14.pdf" target="_blank" class="btn btn-lg btn-color"><?php echo $lang['download']; ?></a>
+              <a href="http://www.cavamorande.cl/store/vistamar-gran-reserva/vistamar-gran-reserva-cabernet-sauvignon-syrah" target="_blank" class="btn btn-lg btn-color">
+              <?php echo $lang['buy']; ?></a>
+              <?php
+              }
+              ?> 
+
+
             </div>
           </div> <!-- end col -->   
 

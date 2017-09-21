@@ -17,7 +17,7 @@
               data-title="Creative &amp; Emotional"
               >
               <!-- MAIN IMAGE -->
-              <img src="img/ow-specialties.png"
+              <img src="img/ow-specialties.jpg"
                 alt="Specialties"
                 data-bgrepeat="no-repeat"
                 data-bgfit="cover"

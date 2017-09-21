@@ -27,42 +27,53 @@
 
           <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12 descrip-vino">
            	
-            	<div class="info-ow">
-            	<h3>VARIEDADES</h3>
+            	<div class="info-ow" style="text-transform: uppercase">
+            	<h3><?php echo $lang['homeVariedades']; ?></h3>
              	<div class="contain-1">
-				<div class="vari"><a href="cc_cb.php"><h4>COASTAL BLEND</h4></a></div>
+				<div class="vari"><a href="cc_cb.php"><h4><?php echo $lang['coastalBlend']; ?>COASTAL BLEND</h4></a></div>
              	<div class="dot3">·</div>
-             	<div class="vari"><a href="cc_ab.php"><h4>ANDES BLEND</h4></a></div>
+             	<div class="vari"><a href="cc_ab.php"><h4><?php echo $lang['andesBlend']; ?>ANDES BLEND</h4></a></div>
              	</div>
              	</div>
              	
             <div class="info-ow mt-30">
-              <h1 style="text-transform: uppercase">Coastal Blend</h1>
+              <h1 style="text-transform: uppercase"><?php echo $lang['coastalBlend']; ?></h1>
               <br>
-              <h3>Origen</h3>
-              <h5>Valle Casablanca Costa</h5>
-              Chardonnay proveniente de nuestro campo propio, Belen. Ubicado en la parte mas cercana la costa en Casablanca, donde el clima presenta gran influencia del frio Oceano Pacifico, lo que asegura y permite una lenta maduración.
+              <h3><?php echo $lang['origen']; ?></h3>
+              <h5><?php echo $lang['homeValleCasaBlanca11']; ?></h5>
+              <?php echo $lang[' cc_cbTexto1']; ?>
               <br><br>
-				Plantado en alta densidad, buscando la máxima calidad y expresión frutal.<br>
-				Suelos granticos en las planicies y mas arcillosos en las laderas.</p>
+				      <?php echo $lang[' cc_cbTexto2']; ?>
               <br>
-              <h6>Viniﬁcación</h6>
-              <h3>Reporte de vendimia:</h3> Esta temporada 2015, se presento con temperaturas mas frias que un año normal, lo que provoco heladas en épocas tempranas del desarrollo, causando muy bajos rendimientos, muy baja producción de uvas, favoreciendo caracteres mas afrutados, frescos y con marcada acidez.
-              <h3>Cosecha:</h3> Primera quincena de abril.
-              <h3>Guarda:</h3> 8 meses guarda en barricas de roble francés, para la variedad Chardonnay.
-              <h3>Vinificación:</h3> La uva es prensada de forma inmediata al llegar a la bodega, luego el jugo es decantado, para fermentar una parte en barricas y otra en cubas de acero inoxidable.<br>
-El vino resultante se mantiene sobre sus borras hasta el momento de realizar la mezcla y embotellar.<br>
-El componente viognier, 15%, es macerado en frio previo a la fermentación, luego decantado y fermentado completamente en
-acero inoxidable, sin tocar madera.
+              <h6><?php echo $lang['vinificacion']; ?></h6>
+              <h3><?php echo $lang['reporte']; ?>:</h3> <?php echo $lang[' cc_cbTexto3']; ?>
+              <h3><?php echo $lang['cosecha']; ?>:</h3> <?php echo $lang[' cc_cbTexto4']; ?>
+              <h3><?php echo $lang['guarda']; ?>:</h3> <?php echo $lang[' cc_cbTexto5']; ?>
+              <h3><?php echo $lang['vinificacion']; ?>:</h3> <?php echo $lang[' cc_cbTexto6']; ?>
+              <br>
+              <?php echo $lang[' cc_cbTexto61']; ?><br>
+              <?php echo $lang[' cc_cbTexto7']; ?>
               <br><br>
-              <h6>Degustación</h6>
-              <h3>Color:</h3> Amarillo palido.
-              <h3>Aroma:</h3> Gran intensidad frutal,con notas cítricas y minerales, apareciendo también los toques exóticos y tropicales del viogner, acompañados con suaves notas de vainilla.
-              <h3>Sabor:</h3> Fresco y elegante. Acidez muy agradable y sugerente. Taninos potentes y golosos.
-              <h3>Temperatura de consumo:</h3> 8 a 12°C.
+              <h6><?php echo $lang['degustacion']; ?></h6>
+              <h3><?php echo $lang['color']; ?>:</h3><?php echo $lang[' cc_cbTexto8']; ?>
+              <h3><?php echo $lang['aroma']; ?>:</h3> <?php echo $lang[' cc_cbTexto9']; ?>
+              <h3><?php echo $lang['sabor']; ?>:</h3> <?php echo $lang[' cc_cbTexto10']; ?>
+              <h3><?php echo $lang['temp']; ?>:</h3><?php echo $lang[' cc_cbTexto11']; ?>
               <br><br>
-              <a href="files/CorteCampo_Costa_15.pdf" target="_blank" class="btn btn-lg btn-color">Bajar Archivo</a>
-              <!--a href="http://www.cavamorande.cl/store/vina-vistamar/vistamar-brisa-cabernet-sauvignon-2014" target="_blank" class="btn btn-lg btn-color">Buy</a-->
+              
+               <?php 
+              if ($_SESSION['lang']=='en') {  ?>
+              <a href="files//Corte de Campo/Eng/CorteCampo_Costa_15.pdf" target="_blank" class="btn btn-lg btn-color"><?php echo $lang['download']; ?></a>
+              <?php
+              }
+              else if ($_SESSION['lang']=='es') { ?>
+              <a href="files//Corte de Campo/Esp/CorteCampo_Costa_15pdf" target="_blank" class="btn btn-lg btn-color"><?php echo $lang['download']; ?></a>
+              <a href="http://www.cavamorande.cl/store/vistamar-gran-reserva/vistamar-gran-reserva-cabernet-sauvignon-syrah" target="_blank" class="btn btn-lg btn-color">
+              <?php echo $lang['buy']; ?></a>
+              <?php
+              }
+              ?> 
+
             </div>
           </div> <!-- end col -->   
 

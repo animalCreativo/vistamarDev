@@ -8,37 +8,38 @@
          				<img src="img/vistamar3.png">
 					</div>
          		</div>
-         		<div class="col-lg-2 col-sm-4 menu-footer">
-         			INICIO<br>
-         			NUESTROS VINOS<br>
+         		<div class="col-lg-2 col-sm-4 menu-footer" style="text-transform: uppercase;">
+         			<?php echo $lang['home']; ?> <br>
+         			<?php echo $lang['headerNuestrosVinos']; ?><br>
          			<ul>
-         				<li><a href="brisa.php">BRISA</a></li>
-         				<li><a href="gran-reserva.php">GRAN RESERVA</a></li>
-         				<li><a href="corte-de-campo.php">CORTE DE CAMPO</a></li>
-         				<li><a href="sepia-reserva.php">SEPIA RESERVA</a></li>
-         				<li><a href="especialidades.php">ESPECIALIDADES</a></li>
+         				<li><a href="brisa.php" ><?php echo $lang['homeBrisa1']; ?></a></li>
+         				<li><a href="gran-reserva.php" ><?php echo $lang['homeReserva1']; ?></a></li>
+         				<li><a href="corte-de-campo.php"><?php echo $lang['homeCorte1']; ?></a></li>
+         				<li><a href="sepia-reserva.php" ><?php echo $lang['homeReservaSepia1']; ?></a></li>
+         				<li><a href="especialidades.php"><?php echo $lang['homeSpecial1']; ?></a></li>
          			</ul>
          		</div>
-         		<div class="col-lg-2 col-sm-4 menu-footer">
-         			VALLES<br>
-         			COOL STUFF<br>
+         		<div class="col-lg-2 col-sm-4 menu-footer" style="text-transform: uppercase;">
+         			<?php echo $lang['homeValle']; ?><br>
+         			<?php echo $lang['coolStuff']; ?><br>
                  <ul>
-         				<li><a href="awards.php">AWARDS</a></li>
-         				<li><a href="videos.php">VIDEOS</a></li>
-         				<li><a href="news.php">NEWS</a></li>
-         				<li><a href="social.php">SOCIAL</a></li>
+         				<li><a href="awards.php"><?php echo $lang['awards']; ?></a></li>
+         				<li><a href="videos.php"><?php echo $lang['videos']; ?></a></li>
+         				<li><a href="news.php"><?php echo $lang['noticias']; ?></a></li>
+         				<li><a href="social.php"><?php echo $lang['social']; ?></a></li>
          			</ul>
-                  SUSTENTABILIDAD<br>
-         			THE ADVENTURE<br>
-                  CONTACTO
+                  <?php echo $lang['sustentabilidad']; ?><br>
+         			    <?php echo $lang['aventura']; ?><br>
+                  <?php echo $lang['contacto']; ?>
          		</div>
-         		<div class="col-lg-2 col-sm-4 menu-footer" style="color: #515c5e; font-weight: 700;">
+         	<!-- 	<div class="col-lg-2 col-sm-4 menu-footer" style="color: #515c5e; font-weight: 700;">
                		ENGLISH SITE<br>
-                	SPANISH SITE</div>
+                	SPANISH SITE
+            </div> -->
          		<div class="col-lg-3 col-sm-12">
          			<div class="contactanos">
 						CONTACTO<br>
-						<span style="font-size: 17px; color:#0592ad">(+56 2) 2571 5600</span>
+						<span style="font-size: 17px; color:#0592ad"><?php echo $lang['phone2']; ?></span>
          				<div class="rrss">
          					<div class="center-div">
 								<a href="http://www.facebook.com/vistamarwines" target="_blank"><div class="circleBase type1"><i class="fa fa-facebook"></i></div></a>
@@ -93,6 +94,8 @@
   <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
   <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
   <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+  <script type="text/javascript" src="js/vinos.js"></script>
 
 
 </body>

@@ -34,7 +34,7 @@
               	<div class="info-ow">
               		<h1 style="text-transform: uppercase;"><?php echo $lang['homeReserva1']; ?></h1>
               		<h3 style="text-transform: uppercase;"><?php echo $lang['granReservaValle1']; ?></h3>
-              		<h5><?php echo $lang['granReservaValle2']; ?><</h5>
+              		<h5><?php echo $lang['granReservaValle2']; ?></h5>
 					<p><?php echo $lang['granReservaTexto1']; ?>
 					<br><br>
 				  <?php echo $lang['granReservaTexto2']; ?>

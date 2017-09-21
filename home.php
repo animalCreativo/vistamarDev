@@ -1,3 +1,4 @@
+
 <?php include 'header.php';?>
  
   <div class="main-wrapper-onepage main oh">
@@ -163,7 +164,7 @@
     			<div class="work-item web-design print">
 					<div class="work-img-responsive"><img src="img/wine5.png" height="433" alt="Specialties">
 						<div class="work-overlay">
-						<a href="specialties.php" style="color: #FFFFFF">
+						<a href="especialidades.php" style="color: #FFFFFF">
 							<div class="other-wines">
 								<h3> <?php echo $lang['homeSpecial1']; ?></h3>
                   				<span><?php echo $lang['homeSpecial2']; ?></span>         

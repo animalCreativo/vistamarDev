@@ -17,7 +17,7 @@
 
           <div class="sobrepuesto paddingTop10">
 					<div class="imgbotella">
-						<img src="img/51brpnen.png" class="img-center img-responsive centrar-div-pos" alt="SPECIALITIES BRUT ROSE">
+						<img src="img/51brpnen.png" class="img-center img-responsive centrar-div-pos" alt="SPECIALITIES BRUT ROSE" style="height: 900px; width: auto;">
 					</div>
 				</div> <!-- end col -->
           
@@ -27,34 +27,45 @@
 
           <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12 descrip-vino">
            	
-            	<div class="info-ow">
-            	<h3>VARIETIES</h3>
+            	<div class="info-ow" style="text-transform: uppercase">
+            	<h3 ><?php echo $lang['homeVariedades']; ?></h3>
              	<div class="contain-1">
-				<div class="vari"><a href="special_br.php"><h4>BRUT ROSE</h4></a></div>
+				<div class="vari"><a href="special_br.php"><h4><?php echo $lang['brutRose']; ?></h4></a></div>
              	<div class="dot3">·</div>
-             	<div class="vari"><a href="special_lh.php"><h4>LATE HARVEST</h4></a></div>
+             	<div class="vari"><a href="special_lh.php"><h4><?php echo $lang['lateHarvest']; ?></h4></a></div>
               	</div>
              	</div>
              	
             <div class="info-ow mt-30">
-              <h1 style="text-transform: uppercase">Brut Rose</h1>
+              <h1 style="text-transform: uppercase"><?php echo $lang['brutRose']; ?></h1>
               <br>
-              <h3>Origin</h3>
-              <h5>Casablanca Valley</h5>
-              Loamy-sandy-clay soils. The maritime influence is fundamental in the slow ripening of the grape berries, which gives us fresh and complex wines.</p>
-              <br>
-              <h6>Viniﬁcation</h6>
-              Harvesting is executed manually; then the first fermentation of the wine takes place in stainless steel tanks, achieving maximum quality. Later a second fermentation is carried out using the Charmat method, achieving a unique wine, with great elegance and delicious freshness.
+              <h3><?php echo $lang['origen']; ?></h3>
+              <h5><?php echo $lang['homeValleCasaBlanca1']; ?></h5>
+              <?php echo $lang['special_brTexto1']; ?>
               <br><br>
-              <h6>Degustation</h6>
-              <h3>Colour:</h3> Pale rose, bright and attractive. With a small, persistent bubble.
-              <h3>Aroma:</h3> Very fresh, with presence of wild flowers and berries.
-              <h3>Palate:</h3> Elegant, with rich acidity and great persiste.
-              <h3>Serving:</h3> 6°C – 8°C.
-              <h3>Food Pairing:</h3> Best served with smoked salmon, scallops, oysters and as an aperitif.
+              <h6><?php echo $lang['vinificacion']; ?></h6>
+              <?php echo $lang['special_brTexto2']; ?>
               <br><br>
-              <a href="files/51_Vistamar_Brut_Rose_eng.pdf" target="_blank" class="btn btn-lg btn-color">Download file</a>
-              <!--a href="http://www.cavamorande.cl/store/vistamar-gran-reserva/vistamar-gran-reserva-cabernet-sauvignon-syrah" target="_blank" class="btn btn-lg btn-color">Buy</a-->
+              <h6> <?php echo $lang['degustacion']; ?></h6>
+              <h3><?php echo $lang['color']; ?>:</h3> <?php echo $lang['special_brTexto3']; ?>
+              <h3><?php echo $lang['aroma']; ?>:</h3> <?php echo $lang['special_brTexto4']; ?>
+              <h3><?php echo $lang['boca']; ?>:</h3> <?php echo $lang['special_brTexto5']; ?>
+              <h3><?php echo $lang['temp']; ?>:</h3> <?php echo $lang['special_brTexto6']; ?>
+              <h3><?php echo $lang['maridaje']; ?>:</h3> <?php echo $lang['special_brTexto7']; ?>
+              <br><br>
+
+              <?php 
+              if ($_SESSION['lang']=='en') {  ?>
+              <a href="files/Specialties/Brut Rose/PDF eng/Vistamar_Brut Rose_eng.pdf" target="_blank" class="btn btn-lg btn-color"><?php echo $lang['download']; ?></a>
+              <?php
+              }
+              else if ($_SESSION['lang']=='es') { ?>
+              <a href="files/Specialties/Brut Rose/PDF Esp/Vistamar_Brut Rose_esp.pdf" target="_blank" class="btn btn-lg btn-color"><?php echo $lang['download']; ?></a>
+              <a href="http://www.cavamorande.cl/store/vistamar-gran-reserva/vistamar-gran-reserva-cabernet-sauvignon-syrah" target="_blank" class="btn btn-lg btn-color">
+              <?php echo $lang['buy']; ?></a>
+              <?php
+              }
+              ?>              
             </div>
           </div> <!-- end col -->   
 
