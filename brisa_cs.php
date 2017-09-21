@@ -30,7 +30,7 @@
             	<div class="info-ow" style="text-transform: uppercase">
             	<h3><?php echo $lang['homeVariedades']; ?></h3>
              	<div class="contain-1">
-				<div class="vari"><a href="brisa_cs.php"><h4><?php echo $lang['coastalBlend']; ?></h4></a></div>
+				<div class="vari"><a href="brisa_cs.php"><h4><?php echo $lang['cabernetBlend']; ?></h4></a></div>
              	<div class="dot3">·</div>
              	<div class="vari"><a href="brisa_ca.php"><h4><?php echo $lang['carmene']; ?></h4></a></div>
              	<div class="dot3">·</div>
@@ -48,7 +48,7 @@
              	</div>
              	
             <div class="info-ow mt-30">
-              <h1 style="text-transform: uppercase"><?php echo $lang['coastalBlend']; ?></h1>
+              <h1 style="text-transform: uppercase"><?php echo $lang['cabernetBlend']; ?></h1>
               <br> 
               <h3><?php echo $lang['origen']; ?></h3>
               <h5><?php echo $lang['valleCentral']; ?></h5>
@@ -57,7 +57,7 @@
               <h6><?php echo $lang['vinificacion']; ?></h6>
               <?php echo $lang['brisa_csTexto2']; ?>
               <br><br>
-              <h6><?php echo $lang['degustación']; ?></h6>
+              <h6><?php echo $lang['degustacion']; ?></h6>
               <h3><?php echo $lang['color']; ?>:</h3> <?php echo $lang['brisa_csTexto3']; ?>
               <h3><?php echo $lang['aroma']; ?>:</h3> <?php echo $lang['brisa_csTexto4']; ?>
               <h3><?php echo $lang['sabor']; ?>:</h3> <?php echo $lang['brisa_csTexto5']; ?>
@@ -72,7 +72,7 @@
               }
               else if ($_SESSION['lang']=='es') { ?>
               <a href="files/Brisa/ESP/Brisa_CS_16.pdf" target="_blank" class="btn btn-lg btn-color"><?php echo $lang['download']; ?></a>
-              <a href="http://www.cavamorande.cl/store/vistamar-gran-reserva/vistamar-gran-reserva-cabernet-sauvignon-syrah" target="_blank" class="btn btn-lg btn-color">
+              <a href="http://www.cavamorande.cl/store/vina-vistamar/vistamar-brisa-cabernet-sauvignon-2014" target="_blank" class="btn btn-lg btn-color">
               <?php echo $lang['buy']; ?></a>
               <?php
               }
@@ -88,7 +88,18 @@
 
    <section class="black-b">
     	<div class="content-title-img">
-		<div class="title-img"><img src="img/title_wine.png" alt="our wines"></div>
+		<div class="title-img">
+     <?php 
+          if ($_SESSION['lang']=='en') {  ?>
+      <img src="img/title_wine_en.png" alt="<?php echo $lang['homeSpecial1']; ?>">
+      <?php
+      }
+      else if ($_SESSION['lang']=='es') { ?>
+      <img src="img/title_wine.png" alt="<?php echo $lang['homeSpecial1']; ?>">
+      <?php
+      }
+      ?>  
+    </div>
 		</div>
     </section>
 <section id="wines" class="no-pad-top">

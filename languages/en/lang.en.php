@@ -79,6 +79,7 @@ Ideal for the production of white wines and fresh red.';
   $lang['contacto3']  = 'E-mail*';
   $lang['contacto4']  = 'Subject';
   $lang['contacto5']  = 'message';
+  $lang['brisaValle']  = 'Central and Limarí';
   
   $lang['enviar']  = 'SUBMIT';
 
@@ -90,7 +91,7 @@ Ideal for the production of white wines and fresh red.';
   $lang['mail2']  = 'mailto:gmontes@grupobelen.cl';
   $lang['mail3']  = 'contacto@vistamar.cl';
 
-  $lang['especialidadesCentralTitle']  = 'Casablanca, Maipo, Cachapoal Andes and Maule';
+  $lang['especialidadesCentralTitle']  = 'Central and Limarí';
   $lang['especialidadesCentralTexto']   = 'Our aim of being different and innovative led us to develop these incredible sparkling wines Brut and Brut Rosé and our delicate, aromatic and fruity Late Harvest Moscatel.';
 
   $lang['brutRose']  = ' BRUT ROSE';
@@ -264,7 +265,7 @@ The Viognier component (15%) was cold macerated prior to fermentation, then deca
   $lang['sepia_csTexto6'] = 'Fresh red and black fruits, vanilla, black pepper, and touches of fines herbes.';
   $lang['sepia_csTexto7'] = 'Fruity, with notes of tofee and vanilla, mild tannins, elegant and persistent.';
   $lang['sepia_csTexto8'] = '16 to 18ºC.';
-  $lang['sepia_csTexto8'] = 'Game, boar, venison and red meats in general. ';
+  $lang['sepia_csTexto9'] = 'Game, boar, venison and red meats in general. ';
 
    $lang['sepia_caTexto1'] = 'Soils are alluvial-colluvial in origin, of loam to loamy-clayey silt, stony and with good drainage. The climate is temperate Mediterranean with a wide temperature variation between day and night.';
 

@@ -50,12 +50,12 @@
               <h3><?php echo $lang['guarda']; ?>:</h3>  <?php echo $lang['cc_abTexto4']; ?>
               <h3><?php echo $lang['vinificacion']; ?>:</h3>  <?php echo $lang['cc_abTexto5']; ?>
               <br><br>
-              <h6><?php echo $lang['degustación']; ?></h6>
+              <h6><?php echo $lang['degustacion']; ?></h6>
               <h3><?php echo $lang['color']; ?>:</h3>  <?php echo $lang['cc_abTexto6']; ?>
               <h3><?php echo $lang['aroma']; ?>:</h3>  <?php echo $lang['cc_abTexto7']; ?>
               <h3><?php echo $lang['sabor']; ?>:</h3>  <?php echo $lang['cc_abTexto8']; ?>
               <h3>Temperatura de consumo:</h3>  <?php echo $lang['cc_abTexto9']; ?>
-              <h3><?php echo $lang['potencial']; ?>:</h3>  <?php echo $lang['cc_abTexto10']; ?>.
+              <h3><?php echo $lang['potencial']; ?>:</h3>  <?php echo $lang['cc_abTexto10']; ?>
               <br><br>
               
               <?php 
@@ -65,7 +65,7 @@
               }
               else if ($_SESSION['lang']=='es') { ?>
               <a href="files/Corte de Campo/Esp/CorteCampo_Andes_14.pdf" target="_blank" class="btn btn-lg btn-color"><?php echo $lang['download']; ?></a>
-              <a href="http://www.cavamorande.cl/store/vistamar-gran-reserva/vistamar-gran-reserva-cabernet-sauvignon-syrah" target="_blank" class="btn btn-lg btn-color">
+              <a href="http://www.cavamorande.cl/store/vistamar-corte-de-campo-tinto-2014?search=CORTE%20DE%20CAMPO" target="_blank" class="btn btn-lg btn-color">
               <?php echo $lang['buy']; ?></a>
               <?php
               }
@@ -80,7 +80,18 @@
 
    <section class="black-b">
     	<div class="content-title-img">
-		<div class="title-img"><img src="img/title_wine.png" alt="our wines"></div>
+		<div class="title-img">
+    <?php 
+          if ($_SESSION['lang']=='en') {  ?>
+      <img src="img/title_wine_en.png" alt="<?php echo $lang['homeSpecial1']; ?>">
+      <?php
+      }
+      else if ($_SESSION['lang']=='es') { ?>
+      <img src="img/title_wine.png" alt="<?php echo $lang['homeSpecial1']; ?>">
+      <?php
+      }
+      ?>   
+    </div>
 		</div>
     </section>
 <section id="wines" class="no-pad-top">

@@ -30,7 +30,7 @@
             <div class="info-ow" style="text-transform: uppercase">
               <h3><?php echo $lang['homeVariedades']; ?></h3>
               <div class="contain-1">
-        <div class="vari"><a href="brisa_cs.php"><h4><?php echo $lang['coastalBlend']; ?></h4></a></div>
+        <div class="vari"><a href="brisa_cs.php"><h4><?php echo $lang['cabernetBlend']; ?></h4></a></div>
               <div class="dot3">·</div>
               <div class="vari"><a href="brisa_ca.php"><h4><?php echo $lang['carmene']; ?></h4></a></div>
               <div class="dot3">·</div>
@@ -57,7 +57,7 @@
               <h6><?php echo $lang['vinificacion']; ?></h6>
               <?php echo $lang['brisa_sbTexto2']; ?>
               <br><br>
-              <h6><?php echo $lang['degustación']; ?></h6>
+              <h6><?php echo $lang['degustacion']; ?></h6>
               <h3><?php echo $lang['color']; ?>:</h3> <?php echo $lang['brisa_sbTexto3']; ?>
               <h3><?php echo $lang['aroma']; ?>:</h3> <?php echo $lang['brisa_sbTexto4']; ?>
               <h3><?php echo $lang['sabor']; ?>:</h3> <?php echo $lang['brisa_sbTexto5']; ?>
@@ -73,7 +73,7 @@
               }
               else if ($_SESSION['lang']=='es') { ?>
               <a href="files/Brisa/ESP/Brisa_SB_17.pdf" target="_blank" class="btn btn-lg btn-color"><?php echo $lang['download']; ?></a>
-              <a href="http://www.cavamorande.cl/store/vistamar-gran-reserva/vistamar-gran-reserva-cabernet-sauvignon-syrah" target="_blank" class="btn btn-lg btn-color">
+              <a href="http://www.cavamorande.cl/store/vistamar-brisa-sauvignon-blanc-2016?search=sauvignon%20blanc" target="_blank" class="btn btn-lg btn-color">
               <?php echo $lang['buy']; ?></a>
               <?php
               }
@@ -88,7 +88,18 @@
 
    <section class="black-b">
     	<div class="content-title-img">
-		<div class="title-img"><img src="img/title_wine.png" alt="our wines"></div>
+		<div class="title-img">
+     <?php 
+          if ($_SESSION['lang']=='en') {  ?>
+      <img src="img/title_wine_en.png" alt="<?php echo $lang['homeSpecial1']; ?>">
+      <?php
+      }
+      else if ($_SESSION['lang']=='es') { ?>
+      <img src="img/title_wine.png" alt="<?php echo $lang['homeSpecial1']; ?>">
+      <?php
+      }
+      ?>  
+    </div>
 		</div>
     </section>
 <section id="wines" class="no-pad-top">

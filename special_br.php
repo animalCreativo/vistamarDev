@@ -61,8 +61,8 @@
               }
               else if ($_SESSION['lang']=='es') { ?>
               <a href="files/Specialties/Brut Rose/PDF Esp/Vistamar_Brut Rose_esp.pdf" target="_blank" class="btn btn-lg btn-color"><?php echo $lang['download']; ?></a>
-              <a href="http://www.cavamorande.cl/store/vistamar-gran-reserva/vistamar-gran-reserva-cabernet-sauvignon-syrah" target="_blank" class="btn btn-lg btn-color">
-              <?php echo $lang['buy']; ?></a>
+              <!-- <a href="http://www.cavamorande.cl/store/vistamar-gran-reserva/vistamar-gran-reserva-cabernet-sauvignon-syrah" target="_blank" class="btn btn-lg btn-color">
+              <?php echo $lang['buy']; ?></a> -->
               <?php
               }
               ?>              
@@ -75,7 +75,18 @@
 
    <section class="black-b">
     	<div class="content-title-img">
-		<div class="title-img"><img src="img/title_wine.png" alt="our wines"></div>
+		<div class="title-img">
+    <?php 
+          if ($_SESSION['lang']=='en') {  ?>
+      <img src="img/title_wine_en.png" alt="<?php echo $lang['homeSpecial1']; ?>">
+      <?php
+      }
+      else if ($_SESSION['lang']=='es') { ?>
+      <img src="img/title_wine.png" alt="<?php echo $lang['homeSpecial1']; ?>">
+      <?php
+      }
+      ?>
+    </div>
 		</div>
     </section>
  <section id="wines" class="no-pad-top">

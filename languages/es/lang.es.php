@@ -68,6 +68,7 @@
   $lang['contacto']  = 'Contacto';
   $lang['contacto2']  = 'Contactenos';
   $lang['aventura']  = 'La Aventura';
+  $lang['brisaValle']  = 'Central y Limarí';
 
 
   $lang['phone1']  	= 'Teléfono';
@@ -92,7 +93,7 @@
 
   
   
-  $lang['especialidadesCentralTitle']  = 'Casablanca, Maipo, Cachapoal Andes y Maule';
+  $lang['especialidadesCentralTitle']  = 'Central y Limarí';
   $lang['especialidadesCentralTexto']   = 'Nuestro objetivo de ser diferentes e innovadores nos llevó a desarrollar estos increíbles vinos espumantes Brut y Brut Rosé y nuestro delicado, aromático y frutal Late Harvest Moscatel.';
 
   $lang['brutRose']  = ' BRUT ROSE';
@@ -264,7 +265,7 @@ Suelos de origen aluvial-coluvial, franco arcillo limosos, pedregosos y con buen
   $lang['sepia_csTexto6'] = 'Frutos rojos y negros frescos, vainilla, pimienta negra, notas de finas hierbas.';
   $lang['sepia_csTexto7'] = 'Frutoso, con notas de toffee y vainilla, de taninos suaves, elegante y persistente.';
   $lang['sepia_csTexto8'] = '16-18ºC.';
-  $lang['sepia_csTexto8'] = 'Carnes de caza, jabalí, ciervo y carnes rojas en general.';
+  $lang['sepia_csTexto9'] = 'Carnes de caza, jabalí, ciervo y carnes rojas en general.';
 
   $lang['sepia_caTexto1'] = 'Suelos de origen aluvial-coluvial, franco a franco arcillo limosos, pedregosos y con buen drenaje. Clima templado mediterráneo, con gran amplitud térmica entre el día y la noche.';
 

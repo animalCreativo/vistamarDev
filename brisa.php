@@ -34,7 +34,7 @@
               	<div class="info-ow">
               		<h1 style="text-transform: uppercase;"><?php echo $lang['homeBrisa1']; ?></h1>
               		<h3 style="text-transform: uppercase;"><?php echo $lang['homeValle']; ?></h3>
-              		<h5><?php echo $lang['especialidadesCentralTitle']; ?></h5>
+              		<h5><?php echo $lang['brisaValle']; ?></h5>
 					        <p> <?php echo $lang['especialidadesBrisa']; ?>  </p>
             	
              	<h3 style="text-transform: uppercase;"> <?php echo $lang['homeVariedades']; ?></h3>

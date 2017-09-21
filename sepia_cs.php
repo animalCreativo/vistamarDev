@@ -65,7 +65,7 @@
               <h3><?php echo $lang['aroma']; ?>:</h3>   <?php echo $lang['sepia_csTexto6']; ?>
               <h3><?php echo $lang['sabor']; ?>:</h3>  <?php echo $lang['sepia_csTexto7']; ?>
               <h3><?php echo $lang['temp']; ?>:</h3>   <?php echo $lang['sepia_csTexto8']; ?>
-              <h3><?php echo $lang['maridaje']; ?>:</h3>   <?php echo $lang['sepia_csTexto9']; ?>
+              <h3><?php echo $lang['maridaje']; ?>:</h3>  <?php echo $lang['sepia_csTexto9']; ?>
               <br><br>   
 
               <?php 
@@ -75,7 +75,7 @@
               }
               else if ($_SESSION['lang']=='es') { ?>
               <a href="files/Sepia Reserva/ESP/SepiaReserva_Cs_16.pdf" target="_blank" class="btn btn-lg btn-color"><?php echo $lang['download']; ?></a>
-              <a href="http://www.cavamorande.cl/store/vistamar-gran-reserva/vistamar-gran-reserva-cabernet-sauvignon-syrah" target="_blank" class="btn btn-lg btn-color">
+              <a href="http://www.cavamorande.cl/store/sepia-reserva/sepia-reserva-cabernet-sauvignon-2015" target="_blank" class="btn btn-lg btn-color">
               <?php echo $lang['buy']; ?></a>
               <?php
               }
@@ -90,7 +90,18 @@
 
    <section class="black-b">
     	<div class="content-title-img">
-		<div class="title-img"><img src="img/title_wine.png" alt="our wines"></div>
+		<div class="title-img">
+     <?php 
+          if ($_SESSION['lang']=='en') {  ?>
+      <img src="img/title_wine_en.png" alt="<?php echo $lang['homeSpecial1']; ?>">
+      <?php
+      }
+      else if ($_SESSION['lang']=='es') { ?>
+      <img src="img/title_wine.png" alt="<?php echo $lang['homeSpecial1']; ?>">
+      <?php
+      }
+      ?>  
+    </div>
 		</div>
     </section>
 <section id="wines" class="no-pad-top">
