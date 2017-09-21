@@ -17,7 +17,7 @@
               data-title="Creative &amp; Emotional"
               >
               <!-- MAIN IMAGE -->
-              <img src="img/ow-sepia.png"
+              <img src="img/ow-sepia.jpg"
                 alt="Specialties"
                 data-bgrepeat="no-repeat"
                 data-bgfit="cover"
@@ -34,7 +34,7 @@
               	<div class="info-ow">
               		<h1 style="text-transform: uppercase;"><?php echo $lang['homeReservaSepia1']; ?></h1>
               		<h3 style="text-transform: uppercase;"><?php echo $lang['homeValle']; ?></h3>
-              		<h5><?php echo $lang['especialidadesCentralTitle']; ?></h5>
+              		<h5><?php echo $lang['sepia-reservaVallesExtra']; ?></h5>
 				        	<p><?php echo $lang['granReservaSepiaReserva']; ?></p>
                   <h3 style="text-transform: uppercase;"><?php echo $lang['homeVariedades']; ?></h3>
              	    <div class="contain-1">

@@ -96,8 +96,8 @@
 					<div class="work-img"><img src="img/w1.jpg" height="433" alt="Brisa">
 						<div class="work-overlay">        
 						<a href="brisa.php" style="color: #FFFFFF">	<div class="other-wines">
-								<h3 style="color: #FFFFFF"> Brisa</h3>
-                  <span>Brisa means ‘breeze’ and it is our homage to the gentle winds that chill-out our vineyards, both in the Andean and the coastal areas.</span>
+								<h3 style="color: #FFFFFF"> <?php echo $lang['homeBrisa1']; ?></h3>
+                  <span><?php echo $lang['homeBrisa2']; ?>.</span>
 							</div></a>
 						</div>
 					</div>
@@ -108,8 +108,8 @@
 					<div class="work-img"><img src="img/w2.jpg" height="433" alt="Gran Reserva">
 						<div class="work-overlay">        
 						<a href="gran-reserva.php" style="color: #FFFFFF">	<div class="other-wines">
-								<h3 style="color: #FFFFFF"> Gran Reserva</h3>
-                  <span>This wine represent all our potential and experience. <br>It is a terroir-wine, grown on specific plots of our vineyards in Maipo Andes.</span>
+								<h3 style="color: #FFFFFF"><?php echo $lang['homeReserva1']; ?></h3>
+                  <span><?php echo $lang['homeReserva2']; ?></span>
 							</div></a>
 						</div>
 					</div>
@@ -120,8 +120,8 @@
 					<div class="work-img"><img src="img/w3.jpg" height="433" alt="Corte de Campo">
 						<div class="work-overlay">        
 							<a href="corte-de-campo.php" style="color: #FFFFFF"><div class="other-wines">
-								<h3 style="color: #FFFFFF"> Corte de Campo</h3>
-                  <span>The Corte de Campo range consists of two blends that represent the greatest expression of our constant efforts to achieve unique wines. <br>Red Blend comes from Cachapoal Andes while White Blend comes from Casablanca Costa.</span>
+								<h3 style="color: #FFFFFF"> <?php echo $lang['homeCorte1']; ?></h3>
+                  <span><?php echo $lang['homeCorte2']; ?></span>
 							</div></a>
 						</div>
 					</div>
@@ -132,8 +132,8 @@
 					<div class="work-img"><img src="img/w4.jpg" height="433" alt="Sepia Reserva">
 						<div class="work-overlay">        
 							<a href="sepia-reserva.php" style="color: #FFFFFF"><div class="other-wines">
-								<h3 style="color: #FFFFFF"> Sepia Reserva</h3>
-                  <span>The grapes for our reserve range are sourced form Single Estate vineyards within our properties from Casablanca Costa (Belen) and Cachapoal Andes (La Moralina).</span>
+								<h3 style="color: #FFFFFF"> <?php echo $lang['homeReservaSepia1']; ?></h3>
+                  <span><?php echo $lang['homeReservaSepia2']; ?></span>
 							</div></a>
 						</div>
 					</div>

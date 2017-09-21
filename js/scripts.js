@@ -481,7 +481,7 @@
         message = $('#msg');
 
     submitContact.on('click', function(e){
-        e.preventDefault();
+        /*e.preventDefault();
 
         var $this = $(this);
         
@@ -501,6 +501,7 @@
                 }
             }
         });
+        */
     });
 
 })(jQuery);

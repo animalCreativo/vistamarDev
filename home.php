@@ -478,7 +478,7 @@
 
           <div class="col-md-8">
            
-            <form id="contact-form" name="contactform" method="post" action="send_form_email.php">
+            <form id="contact-form" name="contactform" method="post" action="">
 
               <div class="row contact-row">
                 <div class="col-md-6 contact-name">

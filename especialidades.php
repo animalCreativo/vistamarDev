@@ -29,9 +29,7 @@
               <!-- LAYER NR. 2 -->
               
               <div class="col-lg-8 col-xs-12 fondo-blanco ow-description">
-              	<div class="wineclass-show">
-              		<img class="img-wineclass" src="img/ow-specialties.png" alt="specialties">
-              	</div>
+              	
               	<div class="info-ow">
               		<h1 style="text-transform: uppercase;"><?php echo $lang['homeSpecial1']; ?></h1>
               		<h3 style="text-transform: uppercase;"><?php echo $lang['homeValle']; ?></h3>

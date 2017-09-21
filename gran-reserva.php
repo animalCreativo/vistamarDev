@@ -17,7 +17,7 @@
               data-title="Creative &amp; Emotional"
               >
               <!-- MAIN IMAGE -->
-              <img src="img/ow-greserva.png"
+              <img src="img/ow-greserva.jpg"
                 alt="Specialties"
                 data-bgrepeat="no-repeat"
                 data-bgfit="cover"

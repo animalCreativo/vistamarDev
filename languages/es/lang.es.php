@@ -167,7 +167,7 @@
   $lang['granReservaCorteDeCampo'] = 'La línea Corte de Campo consta de dos ensamblajes que representan la mayor expresión de nuestros constantes esfuerzos por obtener vinos únicos. La mezcla tinta proviene de Cachapoal Andes, en tanto la mezcla blanca tiene su origen en Casablanca Costa.';
 
 
-  $lang['granReservaSepiaReserva'] = 'Las uvas para nuestra línea Reserva se seleccionan de viñedos únicos de nuestra propiedad (Single Estate) en Casablanca Costa (Campo Belén) y en Cachapoal Andes (Campo La Moralina).';
+  $lang['granReservaSepiaReserva'] = 'Las uvas para nuestra línea Reserva se seleccionan de viñedos únicos de nuestra propiedad (Single Estate) desde Casablanca Costa a Maule.';
   
   $lang['granReservaEspecialidades'] = 'Nuestro objetivo de ser diferentes e innovadores nos llevó a desarrollar estos increíbles vinos espumantes Brut y Brut Rosé y nuestro delicado, aromático y frutal Late Harvest Moscatel.';
 
@@ -177,7 +177,7 @@
   
   $lang['origen'] = 'Origen';
   
-  $lang['vinificacion'] = 'Vinificacion';
+  $lang['vinificacion'] = 'Vinificación';
   $lang['semana'] = 'Semana y tipo de cosecha';
   $lang['reporte'] = 'Reporte de vendimia';
 
@@ -424,7 +424,7 @@ Suelos de origen aluvial-coluvial, franco arcillo limosos, pedregosos y con buen
   $lang['brisa_sbTexto6'] = '8°C.';
   $lang['brisa_sbTexto7'] = 'Pescados magros, ensaladas verdes o como aperitivo. ';
 
-  $lang['special_brTexto1'] = ' Suelos franco-arcillo-limoso. La infuencia marítima es fundamental en la madurez lenta de las bayas, la cual nos entrega vinos frescos y complejos.';
+  $lang['special_brTexto1'] = 'Suelos franco-arcillo-limoso. La infuencia marítima es fundamental en la madurez lenta de las bayas, la cual nos entrega vinos frescos y complejos.';
 
   $lang['special_brTexto2'] = 'La cosecha se realiza en forma manual, para luego realizar la primera fermentación del vino en estanques de acero inoxidable, logrando la máxima calidad. Luego se realiza la segunda fermentación bajo el método charmat, logrando un vino único, con gran elegancia y delicioso frescor';
   $lang['special_brTexto3'] = 'Rosa pálido, brillante y atractívo. Con una burbuja pequeña y persistente.';
@@ -435,5 +435,7 @@ Suelos de origen aluvial-coluvial, franco arcillo limosos, pedregosos y con buen
   $lang['special_brTexto6'] = '6°C - 8°C.';
 
   $lang['special_brTexto7'] = 'Salmón ahumado, ostiones, ostras y como aperitivo. ';
+
+  $lang['sepia-reservaVallesExtra'] = 'Casablanca, Maipo , Cachapoal Andes y Maule. ';
 
 ?>

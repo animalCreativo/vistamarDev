@@ -436,4 +436,6 @@ The Viognier component (15%) was cold macerated prior to fermentation, then deca
 
   $lang['special_brTexto7'] = 'Best served with smoked salmon, scallops, oysters and as an aperitif.';
 
+  $lang['sepia-reservaVallesExtra'] = 'Casablanca, Maipo , Cachapoal Andes and Maule. ';
+
 ?>

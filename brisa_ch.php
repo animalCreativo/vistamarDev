@@ -17,7 +17,7 @@
 
           <div class="sobrepuesto paddingTop10">
 					<div class="imgbotella">
-						<img src="img/16brchen.png" class="img-center img-responsive centrar-div-pos" alt="BRISA CHARDONNAY" style="height: 700px; width: auto;">
+						<img src="img/16brchen.png" class="img-center img-responsive centrar-div-pos" alt="BRISA CHARDONNAY" >
 					</div>
 				</div> <!-- end col -->
           
@@ -101,57 +101,57 @@
     </div>
 		</div>
     </section>
-<section id="wines" class="no-pad-top">
-    	<div class="altura-x">
-    		<div class="wine-space-ow">
-    			<div class="work-item web-design print">
-					<div class="work-img"><img src="img/w2.jpg" height="433" alt="Gran Reserva">
-						<div class="work-overlay">        
-						<a href="gran-reserva.php" style="color: #FFFFFF">	<div class="other-wines">
-								<h3 style="color: #FFFFFF"> Gran Reserva</h3>
-                  <span>Este vino representa todo nuestro potencial y experiencia. Se trata de un vino de terroir, cultivado en cuarteles específicos de nuestros viñedos en Maipo Andes.</span>
-							</div></a>
-						</div>
-					</div>
-				</div>
-    		</div>
-    		<div class="wine-space-ow">
-    			<div class="work-item web-design print">
-					<div class="work-img"><img src="img/w3.jpg" height="433" alt="Corte de Campo">
-						<div class="work-overlay">        
-							<a href="corte-de-campo.php" style="color: #FFFFFF"><div class="other-wines">
-								<h3 style="color: #FFFFFF"> Corte de Campo</h3>
-                  <span>La línea Corte de Campo consta de dos ensamblajes que representan la mayor expresión de nuestros constantes esfuerzos por obtener vinos únicos. La mezcla tinta proviene de Cachapoal Andes, en tanto la mezcla blanca tiene su origen en Casablanca Costa.</span>
-							</div></a>
-						</div>
-					</div>
-				</div>
-    		</div>
-    		<div class="wine-space-ow">
-    			<div class="work-item web-design print">
-					<div class="work-img"><img src="img/w4.jpg" height="433" alt="Sepia Reserva">
-						<div class="work-overlay">        
-							<a href="sepia-reserva.php" style="color: #FFFFFF"><div class="other-wines">
-								<h3 style="color: #FFFFFF"> Sepia Reserva</h3>
-                  <span>Las uvas para nuestra línea Reserva se seleccionan de viñedos únicos de nuestra propiedad (Single Estate) en Casablanca Costa (Campo Belén) y en Cachapoal Andes (Campo La Moralina).</span>
-							</div></a>
-						</div>
-					</div>
-				</div>
-    		</div>
-    		<div class="wine-space-ow">
-    			<div class="work-item web-design print">
-					<div class="work-img"><img src="img/w5.jpg" height="433" alt="Specialties">
-						<div class="work-overlay">        
-							<a href="especialidades.php" style="color: #FFFFFF"><div class="other-wines">
-								<h3 style="color: #FFFFFF"> Especialidades</h3>
-                  <span>Nuestro objetivo de ser diferentes e innovadores nos llevó a desarrollar estos increíbles vinos espumantes Brut y Brut Rosé y nuestro delicado, aromático y frutal Late Harvest Moscatel.</span>
-							</div></a>
-						</div>
-					</div>
-				</div>
-    		</div>
-    	</div>
+ <section id="wines" class="no-pad-top">
+      <div class="altura-x">
+        <div class="wine-space-ow">
+          <div class="work-item web-design print">
+          <div class="work-img"><img src="img/w2.jpg" height="433" alt="Gran Reserva">
+            <div class="work-overlay">        
+            <a href="gran-reserva.php" style="color: #FFFFFF">  <div class="other-wines">
+                <h3 style="color: #FFFFFF"><?php echo $lang['homeReserva1']; ?> </h3>
+                  <span><?php echo $lang['homeReserva2']; ?></span>
+              </div></a>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="wine-space-ow">
+          <div class="work-item web-design print">
+          <div class="work-img"><img src="img/w3.jpg" height="433" alt="Corte de Campo">
+            <div class="work-overlay">        
+              <a href="corte-de-campo.php" style="color: #FFFFFF"><div class="other-wines">
+                <h3 style="color: #FFFFFF"> <?php echo $lang['homeCorte1']; ?></h3>
+                  <span><?php echo $lang['homeCorte2']; ?></span>
+              </div></a>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="wine-space-ow">
+          <div class="work-item web-design print">
+          <div class="work-img"><img src="img/w4.jpg" height="433" alt="Sepia Reserva">
+            <div class="work-overlay">        
+              <a href="sepia-reserva.php" style="color: #FFFFFF"><div class="other-wines">
+                <h3 style="color: #FFFFFF"> <?php echo $lang['homeReservaSepia1']; ?></h3>
+                  <span><?php echo $lang['homeReservaSepia2']; ?></span>
+              </div></a>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="wine-space-ow">
+          <div class="work-item web-design print">
+          <div class="work-img"><img src="img/w5.jpg" height="433" alt="Specialties">
+            <div class="work-overlay">        
+              <a href="especialidades.php" style="color: #FFFFFF"><div class="other-wines">
+                <h3 style="color: #FFFFFF"> <?php echo $lang['homeSpecial1']; ?></h3>
+                  <span><?php echo $lang['homeSpecial2']; ?></span>
+              </div></a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
     </section>
 <script type="text/javascript">
 window.onload=function () {
