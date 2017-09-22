@@ -67,6 +67,10 @@ Ideal for the production of white wines and fresh red.';
   $lang['noticias'] = 'NEWS';
   $lang['social']  	= 'SOCIAL';
 
+  $lang['range']    = 'RANGE';
+  $lang['varieties']    = 'VARIETIES';
+  $lang['vintage']    = ' VINTAGE';
+
   $lang['contacto']  = 'Contact';
   $lang['contacto2']  = 'Contact Us';
   $lang['aventura']  = 'The Adventure';
@@ -114,8 +118,8 @@ Ideal for the production of white wines and fresh red.';
   $lang['sustentabilidadTexto1']  = 'Environmentally';
   $lang['sustentabilidadTexto2']  = 'friendly production';
 
-  $lang['sustentabilidadTexto10']  = 'viable';
-  $lang['sustentabilidadTexto11']  = 'Economically';
+  $lang['sustentabilidadTexto10']  = 'Economically';
+  $lang['sustentabilidadTexto11']  = 'Viable';
   
   $lang['sustentabilidadTexto3']  = 'The sustainability code is considered to be the cornerstone of the sustainability program in the Chilean winemaking business. It sets out the sustainable practices that can exist in the various areas of preparation, throughout the wine\'s chain of value. It identifies the needs of the wine-making sector in three areas: the green area (vineyards), the red area (winery) and the orange area (community), on the understanding that sustainability is the convergence of production that is environmentally-friendly production, socially fair and economically viable.';
 

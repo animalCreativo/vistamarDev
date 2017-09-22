@@ -60,14 +60,18 @@
   $lang['valleCentral']  = 'Valle Central';
   $lang['homeValleMaule2']  = 'En general, el clima de esta región puede ser descrito como mediterráneo sub-húmedo, a pesar de que el valle es reconocido por tener la mayor diversidad climática entre sus diferentes áreas. En él se pueden encontrar viejos viñedos de cepa país y uvas de carignan.';
 
-  $lang['awards']  	= 'AWARDS';
+  $lang['awards']  	= 'PREMIOS';
   $lang['videos']  	= 'VIDEOS';
   $lang['noticias'] = 'NOTICIAS';
   $lang['social']  	= 'SOCIAL';
 
+  $lang['range']    = 'LINEA';
+  $lang['varieties']    = 'VARIEDADES';
+  $lang['vintage']    = 'COSECHA';
+
   $lang['contacto']  = 'Contacto';
   $lang['contacto2']  = 'Contactenos';
-  $lang['aventura']  = 'La Aventura';
+  $lang['aventura']  = 'The Adventure';
   $lang['brisaValle']  = 'Central y Limarí';
 
 
@@ -117,9 +121,10 @@
   $lang['sustentabilidadTexto1']  = 'Amigable con';
   $lang['sustentabilidadTexto2']  = 'el medio ambiente';
 
+
   $lang['sustentabilidadTexto10']  = 'Viable';
-  $lang['sustentabilidadTexto11']  = 'económicamente';
-  
+  $lang['sustentabilidadTexto11']  = 'Económicamente';
+
   $lang['sustentabilidadTexto3']  = 'El código de sustentabilidad es considerado como la piedra angular del programa de sustentabilidad del negocio vitivinícola de Chile. Estipula las prácticas sustentables que pueden existir en las diversas áreas de preparación a lo largo de la cadena de valor del vino. Identifica las necesidades del sector vitivinícola en tres áreas: el área verde (los viñedos), el área roja (las bodegas) y el área naranja (las comunidades), entendiendo que la sustentabilidad es la convergencia de una producción que sea amigable con el medio ambiente, socialmente justa y económicamente viable.';
 
   $lang['sustentabilidadTexto4']  = 'Somos los primeros en Chile en ser certificados con el Código de Sustentabilidad en todas las áreas, lo cual refleja nuestro compromiso con el desarrollo sustentable. ';

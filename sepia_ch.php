@@ -40,7 +40,7 @@
               <div class="vari"><a href="sepia_me.php"><h4><?php echo $lang['merlot']; ?></h4></a></div>
               </div>
               <div class="contain-1">
-        <div class="vari"><a href="sepia_ch.php"><h4><?php echo $lang['chardonnay']; ?></h4></a></div>
+        <div class="vari"><a href="sepia_ch.php"><h4 style="color: black;"><?php echo $lang['chardonnay']; ?></h4></a></div>
               <div class="dot3">·</div>
               <div class="vari"><a href="sepia_pn.php"><h4><?php echo $lang['pinotNoir']; ?></h4></a></div>
               <div class="dot3">·</div>

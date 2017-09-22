@@ -32,7 +32,7 @@
               <div class="contain-1">
         <div class="vari"><a href="sepia_cs.php"><h4><?php echo $lang['cabernetBlend']; ?></h4></a></div>
               <div class="dot3">·</div>
-              <div class="vari"><a href="sepia_ca.php"><h4><?php echo $lang['carmene']; ?></h4></a></div>
+              <div class="vari"><a href="sepia_ca.php"><h4 style="color: black;"><?php echo $lang['carmene']; ?></h4></a></div>
               <div class="dot3">·</div>
               <div class="vari"><a href="sepia_ma.php"><h4><?php echo $lang['malbec']; ?></h4></a></div>
               <div class="dot3">·</div>

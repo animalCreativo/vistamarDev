@@ -30,7 +30,7 @@
             	<div class="info-ow" style="text-transform: uppercase">
             	<h3 ><?php echo $lang['homeVariedades']; ?></h3>
              	<div class="contain-1">
-				<div class="vari"><a href="special_br.php"><h4><?php echo $lang['brutRose']; ?></h4></a></div>
+				<div class="vari"><a href="special_br.php"><h4 style="color: black;"><?php echo $lang['brutRose']; ?></h4></a></div>
              	<div class="dot3">·</div>
              	<div class="vari"><a href="special_lh.php"><h4><?php echo $lang['lateHarvest']; ?></h4></a></div>
               	</div>

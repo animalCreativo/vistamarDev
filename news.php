@@ -37,7 +37,6 @@
     		<div class="row mar-bot-25">
     			<div class="col-lg-6 col-sm-12"><img class="img-responsive" src="img/Sepia-Reserva-Malbec-2014.png" alt="Noticia 1" /></div>
     			<div class="col-lg-6 news">
-    				<h5><?php echo $lang['noticia1Fecha'];?></h5>
     				<h4><?php echo $lang['noticia1Title1'];?></h4>
     				<h3><?php echo $lang['noticia1Title2'];?></h3>
     				<p><?php echo $lang['noticia1Texto'];?></p>
@@ -47,7 +46,6 @@
     		<div class="row mar-bot-25">
     			<div class="col-lg-6 col-sm-12"><img class="img-responsive" src="img/Sepia-Reserva-Chardonnay-2015.png" alt="Noticia 2" /></div>
     			<div class="col-lg-6 news">
-    				<h5><?php echo $lang['noticia2Fecha'];?></h5>
             <h4><?php echo $lang['noticia2Title1'];?></h4>
             <h3><?php echo $lang['noticia2Title2'];?></h3>
             <p><?php echo $lang['noticia2Texto'];?></p>
@@ -57,7 +55,6 @@
     		<div class="row mar-bot-25">
     			<div class="col-lg-6 col-sm-12"><img class="img-responsive" src="img/Cabernet-Sauvignon_Syrah.png" alt="Noticia 3" /></div>
     			<div class="col-lg-6 news">
-    				<h5><?php echo $lang['noticia3Fecha'];?></h5>
             <h4><?php echo $lang['noticia3Title1'];?></h4>
             <h3><?php echo $lang['noticia3Title2'];?></h3>
             <p><?php echo $lang['noticia3Texto'];?></p>

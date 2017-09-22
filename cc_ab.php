@@ -32,7 +32,7 @@
               <div class="contain-1">
         <div class="vari"><a href="cc_cb.php"><h4><?php echo $lang['coastalBlend']; ?></h4></a></div>
               <div class="dot3">·</div>
-              <div class="vari"><a href="cc_ab.php"><h4><?php echo $lang['andesBlend']; ?></h4></a></div>
+              <div class="vari"><a href="cc_ab.php"><h4 style="color: black;"><?php echo $lang['andesBlend']; ?></h4></a></div>
               </div>
               </div>
              	

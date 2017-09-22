@@ -36,18 +36,28 @@
 			<h3><strong><?php echo $lang['videos']; ?></strong></h3>
     		<div class="row mar-bot-25">
     			<div class="col-12 videos text-center">
-    				<div class="col-12">
-    					<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kp9wJ13fw0c?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
-    					<p><?php echo $lang['videos1Titulo']; ?></p>
-    				</div>
-    				<div class="col-12">
-    					<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rKiL2HBe0xg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
-    					<p><?php echo $lang['videos2Titulo']; ?></p>
-    				</div>
-    				<div class="col-12">
-    					<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Jb4uN_6YlqQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
-    					<p><?php echo $lang['videos3Titulo']; ?></p>
-    				</div>
+
+            <?php 
+            if ($_SESSION['lang']=='en') {  ?>
+            <div class="col-12">
+              <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rKiL2HBe0xg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+              <p><?php echo $lang['videos2Titulo']; ?></p>
+            </div>
+            <?php
+            }
+            else if ($_SESSION['lang']=='es') { ?>
+            <div class="col-12">
+              <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kp9wJ13fw0c?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+              <p><?php echo $lang['videos1Titulo']; ?></p>
+            </div>
+            
+            <div class="col-12">
+              <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Jb4uN_6YlqQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+              <p><?php echo $lang['videos3Titulo']; ?></p>
+            </div>
+            <?php
+            }
+            ?>
     			</div>
     			
     		</div>

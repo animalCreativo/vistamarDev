@@ -41,7 +41,7 @@
               <div class="contain-1">
         <div class="vari"><a href="brisa_ro.php"><h4><?php echo $lang['rose']; ?></h4></a></div>
               <div class="dot3">·</div>
-              <div class="vari"><a href="brisa_ch.php"><h4><?php echo $lang['chardonnay']; ?></h4></a></div>
+              <div class="vari"><a href="brisa_ch.php"><h4 style="color: black;"><?php echo $lang['chardonnay']; ?></h4></a></div>
               <div class="dot3">·</div>
               <div class="vari"><a href="brisa_sb.php"><h4><?php echo $lang['sauvignonBlanc']; ?></h4></a></div>
               </div>

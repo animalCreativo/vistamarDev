@@ -120,7 +120,7 @@ include('languages/lang.php');
 
                   <li class="dropdown">
                     <a id="menu_our-wines" href="home.php#wines" class="dropdown-toggle js-btn" data-toggle="dropdown">  <?php echo $lang['headerNuestrosVinos']; ?> </a>
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu" style="text-transform: uppercase;">
                      <li><a id="menu_specialties" href="especialidades.php"><?php echo $lang['homeSpecial1']; ?></a></li>
                       <li><a id="menu_gran-reserva" href="gran-reserva.php"><?php echo $lang['homeReserva1']; ?></a></li>
                       <li><a id="menu_corte-de-campo" href="corte-de-campo.php"><?php echo $lang['homeCorte1']; ?></a></li>

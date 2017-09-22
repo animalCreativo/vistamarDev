@@ -3,7 +3,7 @@
   <div class="main-wrapper-onepage main oh">
 
     <!-- Process -->
-    <section class="no-pad-bot section-wrap process head_image" style="background-image: url(img/fondo_sustent.png)">
+    <section class="no-pad-bot section-wrap process head_image" style="background-image: url(img/fondo_sustent.jpg)">
 
       <div class="container back-responsive">
 
@@ -42,7 +42,7 @@
             <div class="process-item">
               <div class="process-wrap text-center">
 				  <div class="border-1d"><img src="img/s-economy.png" alt="Social" /></div>
-                <h3><?php echo $lang['sustentabilidadTexto10']; ?><br><?php echo $lang['sustentabilidadTexto10']; ?></h3>
+                <h3><?php echo $lang['sustentabilidadTexto10']; ?><br><?php echo $lang['sustentabilidadTexto11']; ?></h3>
               </div>
             </div>
           </div> <!-- end step -->

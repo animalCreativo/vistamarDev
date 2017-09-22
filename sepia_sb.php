@@ -43,7 +43,7 @@
               <div class="dot3">·</div>
               <div class="vari"><a href="sepia_pn.php"><h4><?php echo $lang['pinotNoir']; ?></h4></a></div>
               <div class="dot3">·</div>
-              <div class="vari"><a href="sepia_sb.php"><h4><?php echo $lang['sauvignonBlanc']; ?></h4></a></div>
+              <div class="vari"><a href="sepia_sb.php"><h4 style="color: black;"><?php echo $lang['sauvignonBlanc']; ?></h4></a></div>
               </div>
               </div>
              	

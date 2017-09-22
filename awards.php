@@ -34,7 +34,7 @@
     <section class="section-wrap process pad-top-40 pad-bot-700">
       <div class="container data-spy="scroll" data-offset="10" data-target=".navbar-fixed-top"">
 
-        <h3><strong>AWARDS</strong></h3>
+        <h3><strong><?php echo $lang['awards']; ?></strong></h3>
         <div class="row mar-bot-25">
           <div class="col-lg-3 col-sm-12">
             <form name="change">
@@ -61,10 +61,10 @@
                 <table id="tablaVinos" border="0" cellpadding="0" cellspacing="0" class="table table-condensed table-hover">
                   <thead>
                       <tr>
-                        <th width="120px" align="center"><strong>RANGE</strong></th>
-                        <th width="200px" align="center"><strong>VARIETIES</strong></th>
-                        <th width="80px" align="center"><strong>VINTAGE</strong></th>
-                        <th width="350px" align="center" colspan="2"><strong>AWARD</strong></th>
+                        <th width="120px" align="center"><strong><?php echo $lang['range']; ?></strong></th>
+                        <th width="200px" align="center"><strong><?php echo $lang['varieties']; ?></strong></th>
+                        <th width="80px" align="center"><strong><?php echo $lang['vintage']; ?></strong></th>
+                        <th width="350px" align="center" colspan="2"><strong><?php echo $lang['awards']; ?></strong></th>
                       </tr>
                   </thead>
                   <tbody id="tablaVinosBody">
