@@ -82,7 +82,7 @@ Ideal for the production of white wines and fresh red.';
   $lang['contacto2']  = 'Phone*';
   $lang['contacto3']  = 'E-mail*';
   $lang['contacto4']  = 'Subject';
-  $lang['contacto5']  = 'message';
+  $lang['contacto5']  = 'Message';
   $lang['brisaValle']  = 'Central and Limarí';
   
   $lang['enviar']  = 'SUBMIT';

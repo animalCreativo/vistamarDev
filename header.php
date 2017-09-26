@@ -52,20 +52,20 @@ include('languages/lang.php');
         <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
         
         <!-- responsive tables -->
-        <link href="stacktable.css" rel="stylesheet" />
+       <!--  <link href="stacktable.css" rel="stylesheet" /> -->
         
         <!-- jquery transform SELECT -->
-        <link rel="stylesheet" href="jqtransformplugin/jqtransform.css" type="text/css" media="all" />
-        <script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/jquery.jqtransform.min.js"></script>
-       <script language="javascript">
+        <!-- <link rel="stylesheet" href="jqtransformplugin/jqtransform.css" type="text/css" media="all" /> -->
+        <!-- <script type="text/javascript" src="js/jquery.js"></script> -->
+        <!-- <script type="text/javascript" src="js/jquery.jqtransform.min.js"></script> -->
+     <!--   <script language="javascript">
 		$(function(){
 			$('form').jqTransform({imgPath:'jqtransformplugin/img/'});
 		});
-	</script>
+	</script> -->
         
 <script src="js/jquery.min.js"></script>        
-<script src="js/jquery.flexslider-min.js"></script>
+<!-- <script src="js/jquery.flexslider-min.js"></script> -->
 <script>
     $(document).ready(function () {
         $('.flexslider').flexslider({
