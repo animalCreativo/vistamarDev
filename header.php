@@ -165,10 +165,10 @@ include('languages/lang.php');
 					  <a href="http://www.cavamorande.cl/store/"><img src="img/carro.png" width="auto" height="20" alt=""/></a> &nbsp;<span style="color: #1488A3;">|</span>
                   </li>
                 <li>
-                  <a href=".?lang=en"><img src="img/flag_eng.png" width="20" height="20" alt=""/></a>
+                  <a href="?lang=en"><img src="img/flag_eng.png" width="20" height="20" alt=""/></a>
                 </li>
                 <li>
-                  <a href=".?lang=es"><img src="img/flag_spa.png" width="20" height="20" alt=""/></a>
+                  <a href="?lang=es"><img src="img/flag_spa.png" width="20" height="20" alt=""/></a>
                 </li>
               </ul>
             </div>
