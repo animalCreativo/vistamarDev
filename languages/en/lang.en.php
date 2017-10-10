@@ -93,7 +93,7 @@ Ideal for the production of white wines and fresh red.';
  
   $lang['mail1']  = 'E-mail';
   $lang['mail2']  = 'mailto:gmontes@grupobelen.cl';
-  $lang['mail3']  = 'contacto@vistamar.cl';
+  $lang['mail3']  = 'infovistamar@grupobelen.cl';
 
   $lang['especialidadesCentralTitle']  = 'Central and Limarí';
   $lang['especialidadesCentralTexto']   = 'Our aim of being different and innovative led us to develop these incredible sparkling wines Brut and Brut Rosé and our delicate, aromatic and fruity Late Harvest Moscatel.';
@@ -441,5 +441,9 @@ The Viognier component (15%) was cold macerated prior to fermentation, then deca
   $lang['special_brTexto7'] = 'Best served with smoked salmon, scallops, oysters and as an aperitif.';
 
   $lang['sepia-reservaVallesExtra'] = 'Casablanca, Maipo , Cachapoal Andes and Maule. ';
+
+  $lang['mensajeCorreoOk'] = 'Your message has been sent. Thank you';
+  $lang['mensajeCorreoBad'] = 'Error, your message hasn\'t been sent. ';
+
 
 ?>

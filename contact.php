@@ -1,17 +1,23 @@
 <?php 
+	include('languages/lang.php');
 	if($_POST) {
 
-		$to = "testemail@gmail.com"; // Your email here
-		$subject = 'Message from my website'; // Subject message here
+		$to = "infovistamar@grupobelen.cl"; // Your email here
+		$subject = 'Info VistaMar'; // Subject message here
 
 	}
 
 	//Send mail function
-	function send_mail($to,$subject,$message,$headers){
+	function send_mail($to,$subject,$message,$headers,$mensajeCorreoOk,$mensajeCorreoBad ){
 		if(@mail($to,$subject,$message,$headers)){
-			echo json_encode(array('info' => 'success', 'msg' => "Your message has been sent. Thank you!"));
+		//	echo json_encode(array('info' => 'success', 'msg' => "Your message has been sent. Thank you!"));
+		//	echo json_encode(array('to' => $to, 'subject' => $subject, 'message' => $message,'headers' => $headers));
+
+			echo '<script> alert(\'' .$mensajeCorreoOk. '\'); window.location.href=\'home.php#contact\'; </script>' ;
+			
 		} else {
-			echo json_encode(array('info' => 'error', 'msg' => "Error, your message hasn't been sent"));
+		//	echo json_encode(array('info' => 'error', 'msg' => "Error, your message hasn't been sent"));
+			echo '<script> alert(\'' .$mensajeCorreoBad. '\'); window.location.href=\'home.php#contact\'; </script>' ;
 		}
 	}
 
@@ -42,9 +48,9 @@
 	}
 
 	//Send Mail
-	$headers = 'From: ' . $mail .''. "\r\n".
-	'Reply-To: '.$mail.'' . "\r\n" .
-	'X-Mailer: PHP/' . phpversion();
+	$headers = 'From: ' . $mail ;
 
-	send_mail($to, $subject, $comment . "\r\n\n"  .'Name: '.$name. "\r\n" .'Email: '.$mail, $headers);
+	send_mail($to, $subject, $comment , $headers, $lang['mensajeCorreoOk'], $lang['mensajeCorreoBad']);
+
+	
 ?>

@@ -93,7 +93,7 @@
  
   $lang['mail1']  = 'E-mail';
   $lang['mail2']  = 'mailto:gmontes@grupobelen.cl';
-  $lang['mail3']  = 'contacto@vistamar.cl';
+  $lang['mail3']  = 'infovistamar@grupobelen.cl';
 
   
   
@@ -442,5 +442,11 @@ Suelos de origen aluvial-coluvial, franco arcillo limosos, pedregosos y con buen
   $lang['special_brTexto7'] = 'Salmón ahumado, ostiones, ostras y como aperitivo. ';
 
   $lang['sepia-reservaVallesExtra'] = 'Casablanca, Maipo , Cachapoal Andes y Maule. ';
+
+  $lang['mensajeCorreoOk'] = 'Su mensaje ha sido enviado. Gracias ';
+  $lang['mensajeCorreoBad'] = 'Error tu mensaje no ha sido enviado. ';
+
+
+  
 
 ?>
