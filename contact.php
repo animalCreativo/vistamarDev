@@ -50,9 +50,7 @@
 
 	//Send Mail
 
-	$headers = 'From: ' . $mail . "\r\n" .
-			   'Phone: ' . $phone . "\r\n" .
-    		   'Name: ' . $name;
+	$headers = 'From: ' .$name .$mail .$phone;
 
 	send_mail($to, $subject, $comment , $headers, $lang['mensajeCorreoOk'], $lang['mensajeCorreoBad']);
 
