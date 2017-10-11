@@ -32,6 +32,7 @@
 	$subject = filter_var($_POST['subject'], FILTER_SANITIZE_STRING);
 	$website = filter_var($_POST['website'], FILTER_SANITIZE_STRING);
 	$comment = filter_var($_POST['comment'], FILTER_SANITIZE_STRING);
+	$phone   = filter_var($_POST['phone'], FILTER_SANITIZE_STRING);
 
 	//Validation
 	if($name == '') {
@@ -48,7 +49,10 @@
 	}
 
 	//Send Mail
-	$headers = 'From: ' . $mail ;
+
+	$headers = 'From: ' . $mail . "\r\n" .
+			   'Phone: ' . $phone . "\r\n" .
+    		   'Name: ' . $name;
 
 	send_mail($to, $subject, $comment , $headers, $lang['mensajeCorreoOk'], $lang['mensajeCorreoBad']);
 
